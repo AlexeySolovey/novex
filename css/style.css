@@ -1,0 +1,355 @@
+a,
+h1,
+h2,
+i,
+li,
+p,
+span {
+  color: #6e6e6e;
+}
+a:focus {
+  outline: none;
+  /*отключить внешние границы*/
+  background: transparent;
+  /*отключить background*/
+}
+button {
+  outline: none;
+}
+h2 {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1028px;
+  min-width: 320px;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.img-responsive {
+  margin: 0 auto;
+}
+/*****************************
+			fonts
+*****************************/
+/*OPEN SANS*/
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+/*****************************
+			header
+*****************************/
+header {
+  display: none;
+  padding-bottom: 30px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
+}
+header .contact_form {
+  background: #f4f4f4;
+}
+header .contact_form ul {
+  margin-right: 0;
+}
+header .contact_form button {
+  color: #fff;
+  border: none;
+  height: 70px;
+  float: right;
+  border-radius: 6px;
+  box-shadow: 0 5px #be694b;
+  background: linear-gradient(to top, #f97c50, #f39f81);
+}
+header .contact_form button:hover {
+  background: linear-gradient(to top, #fc8860, #f8ae94);
+}
+header .contact_form button:active {
+  box-shadow: 0 5px #e98967 inset;
+  background: linear-gradient(to top, #f97c50, #f39f81);
+}
+header .language {
+  margin: 17px 0;
+  text-align: right;
+}
+header .language ul {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+header .language ul li {
+  margin-left: 2px;
+  display: inline-block;
+}
+header .language ul li a {
+  color: #6e6e6e;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: OpenSans-Semibold;
+}
+header .language ul li.active,
+header .language ul li.active a {
+  text-decoration: underline;
+}
+header .language ul li:hover,
+header .language ul li:hover a {
+  color: #d7d7d7;
+  cursor: pointer;
+}
+/*****************************
+			nav
+*****************************/
+section.navigation {
+  width: 100%;
+  background: #fff;
+  z-index: 100;
+}
+section.navigation .navbar {
+  margin-bottom: 0;
+  border: 0;
+  min-height: 40px;
+}
+section.navigation .navbar .navbar-header {
+  padding-top: 5px;
+}
+section.navigation .navbar .navbar-header button.navbar-toggle {
+  background-color: #f97c50;
+  padding: 3px 5px;
+  padding-bottom: 5px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0px 4px 2px -1px #be694b;
+  background: linear-gradient(to top, #f97c50, #f39f81);
+}
+section.navigation .navbar .navbar-header button.navbar-toggle:hover {
+  background: linear-gradient(to top, #fc8860, #f8ae94);
+}
+section.navigation .navbar .navbar-header button.navbar-toggle:active {
+  box-shadow: 0 5px #e98967 inset;
+  background: linear-gradient(to top, #f97c50, #f39f81);
+}
+section.navigation .navbar .navbar-header button.navbar-toggle span.icon-bar {
+  width: 12px;
+  margin-top: 2px;
+  background: #be694b;
+}
+section.navigation .navbar .navbar-header .consult a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: OpenSans-Semibold;
+  color: #6e6e6e;
+}
+section.navigation .navbar .navbar-header .consult a:hover {
+  color: #d7d7d7;
+}
+section.navigation .navbar .navbar-header .language ul {
+  display: inline-block;
+  margin-bottom: 9px;
+  padding-left: 0;
+  margin-left: -5px;
+}
+section.navigation .navbar .navbar-header .language ul li {
+  margin-left: 2px;
+  display: inline-block;
+}
+section.navigation .navbar .navbar-header .language ul li a {
+  color: #6e6e6e;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: OpenSans-Semibold;
+}
+section.navigation .navbar .navbar-header .language ul li.active,
+section.navigation .navbar .navbar-header .language ul li.active a {
+  text-decoration: underline;
+}
+section.navigation .navbar .navbar-header .language ul li:hover,
+section.navigation .navbar .navbar-header .language ul li:hover a {
+  color: #d7d7d7;
+  cursor: pointer;
+}
+section.navigation .navbar #responsive-menu ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  padding-bottom: 5px;
+  margin-top: 13px;
+}
+section.navigation .navbar #responsive-menu ul li {
+  padding: 5px 20px;
+}
+section.navigation .navbar #responsive-menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: OpenSans-Semibold;
+}
+section.navigation .navbar #responsive-menu ul li a:hover {
+  color: #d7d7d7;
+}
+/*****************************
+			baner
+*****************************/
+section.baner {
+  display: none;
+}
+section.baner img {
+  width: 100%;
+}
+/*****************************
+			logo
+*****************************/
+section.logo {
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: center;
+  background: #f4f4f4;
+}
+section.logo h2 {
+  font-family: OpenSans-ExtraBold;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+/*****************************
+			call-me
+*****************************/
+section.call-me {
+  margin-top: 14px;
+  text-align: center;
+}
+section.call-me button {
+  color: #fff;
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  font-size: 17.39px;
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: 0 5px #be694b;
+  background: linear-gradient(to top, #f97c50, #f39f81);
+}
+section.call-me button:hover {
+  background: linear-gradient(to top, #fc8860, #f8ae94);
+}
+section.call-me button:active {
+  box-shadow: 0 5px #e98967 inset;
+  background: linear-gradient(to top, #f97c50, #f39f81);
+}
+section.call-me ul {
+  padding: 21px 0;
+}
+section.call-me ul li {
+  font-size: 17.78px;
+  font-family: OpenSans-Bold;
+}
+section.call-me ul li i {
+  color: #f97c50;
+  padding-right: 10px;
+}
+/*****************************
+		manufacturer
+*****************************/
+section.manufacturer {
+  text-align: center;
+}
+section.manufacturer img {
+  padding: 20px;
+}
+/*****************************
+			consultation
+*****************************/
+section.consultation {
+  background: lightblue;
+}
+section.consultation img {
+  margin-top: -100px;
+}
+/*****************************
+			Gallery
+*****************************/
+/*****************************
+			Diploms
+*****************************/
+section.diploms {
+  text-align: center;
+  background: lightblue;
+}
+section.diploms img {
+  padding: 30px;
+}
+/*****************************
+			Contacts
+*****************************/
+section.contacts h2 {
+  text-align: center;
+}
+/*****************************
+			maps
+*****************************/
+section.maps img:first-child {
+  float: left;
+  margin-right: 30px;
+}
+/*****************************
+			footer
+*****************************/
+/*****************************
+			media
+*****************************/
+@media screen and (max-width: 768px) {
+  /*
+	header, section{
+		padding-left : 25px;
+		padding-right: 25px;
+	} 
+	*/
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  /*header*/
+  header {
+    display: block;
+  }
+  /*navigation*/
+  section.navigation {
+    position: absolute;
+    top: 500px;
+  }
+  section.navigation .navbar .navbar-header .consult,
+  section.navigation .navbar .navbar-header .language {
+    display: none;
+  }
+  section.navigation .navbar #responsive-menu ul li {
+    display: inline-block;
+  }
+  /*baner*/
+  section.baner {
+    display: block;
+  }
+  /*logo*/
+  section.logo {
+    display: none;
+  }
+  /*call me*/
+  section.call-me {
+    display: none;
+  }
+}

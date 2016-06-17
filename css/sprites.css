@@ -1,0 +1,100 @@
+.adven_avto, .adven_deliv, .adven_figure, .adven_logistic, .adven_save, .adven_storage, .manufact-bel-cherk-pass, .manufact-keram, .manufact-keram-pass, .manufact-koagul, .manufact-koagul-pass, .manufact-spoly, .manufact-spoly-pass, .manufact-teh, .manufact-tex-pass, .manufact-bel-cherk{
+	background: url(sprites.png) no-repeat;
+}
+
+.adven_avto{
+	background-position: 0 0;
+	width: 98px;
+	height: 68px;
+}
+
+.adven_deliv{
+	background-position: -100px 0;
+	width: 100px;
+	height: 92px;
+}
+
+.adven_figure{
+	background-position: -2px -155px ;
+	width: 152px;
+	height: 171px;
+}
+
+.adven_logistic{
+	background-position: -201px -1px ;
+	width: 83px;
+	height: 87px;
+}
+
+.adven_save{
+	background-position: -285px 0;
+	width: 86px;
+	height: 94px;
+}
+
+.adven_storage{
+	background-position: -376px 0;
+	width: 74px;
+	height: 86px;
+}
+
+.manufact-bel-cherk-pass{
+	background-position: 0 -336px ;
+	width: 204px;
+	height: 65px;
+}
+
+.manufact-keram{
+	background-position: -232px -296px ;
+	width: 216px;
+	height: 41px;
+}
+
+.manufact-keram-pass{
+	background-position: -254px -239px ;
+	width: 176px;
+	height: 34px;
+}
+
+.manufact-koagul{
+	background-position: -161px -236px ;
+	width: 84px;
+	height: 54px;
+}
+
+.manufact-koagul-pass{
+	background-position: -157px -137px ;
+	width: 84px;
+	height: 54px;
+}
+
+.manufact-spoly{
+	background-position: 0 -100px ;
+	width: 123px;
+	height: 51px;
+}
+
+.manufact-spoly-pass{
+	background-position: -259px -138px ;
+	width: 123px;
+	height: 51px;
+}
+
+.manufact-teh{
+	background-position: -163px -197px ;
+	width: 172px;
+	height: 30px;
+}
+
+.manufact-tex-pass{
+	background-position: -136px -102px ;
+	width: 172px;
+	height: 30px;
+}
+
+.manufact-bel-cherk{
+	background-position: -224px -342px ;
+	width: 204px;
+	height: 65px;
+}
+
