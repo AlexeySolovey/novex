@@ -56,23 +56,49 @@ header{
 	z-index: 1;
 	width: 100%;
 	background: #fff;
+	img{
+		padding-top: 10px;
+	}
 	.contact_form{
-		background: #f4f4f4;
-		ul{
-			margin-right: 0;
+		.phones{
+			background: #f4f4f4;
+			width: 370px;
+			margin-left: -25px;
+			ul{
+				margin-right: 0px;
+				padding-left: 18px;
+				padding-top: 4px;
+				padding-bottom: 7px;
+				li{
+					font-family: @OS-bold;
+					font-size: 13px;
+					color: #868686;
+					line-height: 1.38;
+					letter-spacing: 0.5px;
+					i{
+						color: @orange;
+						padding-right: 8px;
+					}
+				}
+			}
 		}
 		button{
 			color: #fff;
+			padding:27px 22px;
+			padding-bottom: 23px;
+			font-size: 17.39px;
+			font-family: @OS-bold;
+			text-transform: uppercase;
+			border-radius: 4px;
 			border: none;
-			height: 70px;
 			float: right;
-			border-radius: 6px;
 			box-shadow: 0 5px #be694b;
 			background: linear-gradient(to top, #f97c50, #f39f81);
 			&:hover{
 				background: linear-gradient(to top, #fc8860, #f8ae94);
 			}
 			&:active{
+				padding-bottom: 27px;
 				box-shadow: 0 5px #e98967 inset;
 				background: linear-gradient(to top, #f97c50, #f39f81);
 			}
@@ -80,6 +106,7 @@ header{
 	}
 	.language{
 		margin: 17px 0;
+		margin-bottom: 5px;
 		text-align: right;
 		ul{
 			display: inline-block;
@@ -111,6 +138,8 @@ header{
 section.navigation{
 	width: 100%;
 	background: #fff;
+	/* position: relative;
+	top: 0; */
 	z-index: 100;
 	.navbar{
 		margin-bottom: 0;
@@ -182,8 +211,8 @@ section.navigation{
 				list-style-type: none;
 				text-align: center;
 				padding-left: 0;
-				padding-bottom: 5px;
-				margin-top: 13px;
+				padding-bottom: 7px;
+				margin-top: 15px;
 				li{
 					padding:5px 20px;
 					a{
@@ -234,11 +263,12 @@ section.call-me{
 		width: 100%;
 		border: none;
 		padding:10px 0;
+		padding-bottom: 15px;
 		font-size: 17.39px;
 		font-family: @OS-bold;
 		text-transform: uppercase;
 		border-radius: 4px;
-		box-shadow: 0 5px #be694b;
+		box-shadow: inset 0 -4px 0px 0px #be694b;
 		background: linear-gradient(to top, #f97c50, #f39f81);
 		&:hover{
 			background: linear-gradient(to top, #fc8860, #f8ae94);
@@ -250,6 +280,7 @@ section.call-me{
 	}
 	ul{
 		padding: 21px 0;
+		padding-top: 16px;
 		li{
 			font-size: 17.78px;
 			font-family: @OS-bold;
@@ -339,7 +370,7 @@ section.maps{
 	/*navigation*/
 	section.navigation{
 		position: absolute;
-		top:500px;
+		top:130px;
 		.navbar{
 			.navbar-header .consult, .navbar-header .language{
 				display: none;
@@ -364,5 +395,7 @@ section.maps{
 }
 
 @media screen and (min-width: 992px){
-	
+	header .contact_form .phones{
+		margin-left: auto;
+	}
 }
