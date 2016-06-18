@@ -8,9 +8,13 @@
 a, h1, h2, i, li, p, span{
 	color: #6e6e6e;
 }
+a:hover{
+	cursor: pointer;
+}
 a:focus {
 	outline: none; /*отключить внешние границы*/
 	background: transparent; /*отключить background*/
+	color: @text_hover;
 }
 button{
 	outline: none;
@@ -212,15 +216,41 @@ section.navigation{
 				text-align: center;
 				padding-left: 0;
 				padding-bottom: 7px;
-				margin-top: 15px;
-				li{
-					padding:5px 20px;
-					a{
-						text-decoration: none;
-						text-transform: uppercase;
-						font-family: @OS-semibold;
-						&:hover{
-							color:@text_hover;
+				margin-top: 13px;
+				margin-left: auto;
+				margin-right: auto;
+				&.navbar-nav{
+					float: none;
+					li{
+						padding:5px 9px;
+						float: none;
+						a{
+							text-decoration: none;
+							text-transform: uppercase;
+							font-family: @OS-semibold;
+							&:hover{
+								color:@text_hover;
+							}
+						}
+						ul.dropdown-menu{
+							border: 0;
+							margin-top: 11px;
+							text-align: left;
+							margin-left: -140px;
+							li{
+								width: 100%;
+								padding:1px 0;
+								a{
+									text-transform: none;
+									font-size:17.56px;
+									color: @text;
+									padding-right: 90px;
+									&:hover{
+										background-color:#f4f4f4;
+										color: @orange;
+									}
+								}
+							}
 						}
 					}
 				}
@@ -233,8 +263,16 @@ section.navigation{
 *****************************/
 section.baner{
 	display: none;
-	img{
-		width: 100%;
+	.parallax-window{
+		h2{
+			padding-top: 214px;
+			line-height: 1.4;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: @OS-extraBold;
+			font-size: 52.6px;
+			text-align: left;
+		}
 	}
 }
 /*****************************
@@ -350,18 +388,18 @@ section.maps{
 /*****************************
 			media
 *****************************/
-@media screen and (max-width: 768px){
-	/*
-	header, section{
-		padding-left : 25px;
-		padding-right: 25px;
-	} 
-	*/
+@media screen and (max-width: 767px){
+	section.navigation .navbar #responsive-menu ul li ul{
+		display: none;
+	}
 }
 @media screen and (min-width: 768px){
 	.container{
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+	section.navigation .navbar #responsive-menu ul li.desk-hide-list{
+		display: none;
 	}
 	/*header*/
 	header{
@@ -370,13 +408,16 @@ section.maps{
 	/*navigation*/
 	section.navigation{
 		position: absolute;
-		top:130px;
+		top:136px;
 		.navbar{
-			.navbar-header .consult, .navbar-header .language{
+			.navbar-header{
 				display: none;
 			}
-			#responsive-menu ul li{
-				display: inline-block;
+			#responsive-menu ul {
+				padding-bottom: 12px;
+				li{
+					display: inline-block;
+				}
 			}
 		}
 	}
@@ -397,5 +438,8 @@ section.maps{
 @media screen and (min-width: 992px){
 	header .contact_form .phones{
 		margin-left: auto;
+	}
+	section.navigation .navbar #responsive-menu ul.navbar-nav li{
+		padding: 5px 22px;
 	}
 }

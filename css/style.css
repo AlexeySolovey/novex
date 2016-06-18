@@ -7,11 +7,15 @@ p,
 span {
   color: #6e6e6e;
 }
+a:hover {
+  cursor: pointer;
+}
 a:focus {
   outline: none;
   /*отключить внешние границы*/
   background: transparent;
   /*отключить background*/
+  color: #d7d7d7;
 }
 button {
   outline: none;
@@ -214,18 +218,44 @@ section.navigation .navbar #responsive-menu ul {
   text-align: center;
   padding-left: 0;
   padding-bottom: 7px;
-  margin-top: 15px;
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: auto;
 }
-section.navigation .navbar #responsive-menu ul li {
-  padding: 5px 20px;
+section.navigation .navbar #responsive-menu ul.navbar-nav {
+  float: none;
 }
-section.navigation .navbar #responsive-menu ul li a {
+section.navigation .navbar #responsive-menu ul.navbar-nav li {
+  padding: 5px 9px;
+  float: none;
+}
+section.navigation .navbar #responsive-menu ul.navbar-nav li a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: OpenSans-Semibold;
 }
-section.navigation .navbar #responsive-menu ul li a:hover {
+section.navigation .navbar #responsive-menu ul.navbar-nav li a:hover {
   color: #d7d7d7;
+}
+section.navigation .navbar #responsive-menu ul.navbar-nav li ul.dropdown-menu {
+  border: 0;
+  margin-top: 11px;
+  text-align: left;
+  margin-left: -140px;
+}
+section.navigation .navbar #responsive-menu ul.navbar-nav li ul.dropdown-menu li {
+  width: 100%;
+  padding: 1px 0;
+}
+section.navigation .navbar #responsive-menu ul.navbar-nav li ul.dropdown-menu li a {
+  text-transform: none;
+  font-size: 17.56px;
+  color: #6e6e6e;
+  padding-right: 90px;
+}
+section.navigation .navbar #responsive-menu ul.navbar-nav li ul.dropdown-menu li a:hover {
+  background-color: #f4f4f4;
+  color: #f97c50;
 }
 /*****************************
 			baner
@@ -233,8 +263,14 @@ section.navigation .navbar #responsive-menu ul li a:hover {
 section.baner {
   display: none;
 }
-section.baner img {
-  width: 100%;
+section.baner .parallax-window h2 {
+  padding-top: 214px;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: OpenSans-ExtraBold;
+  font-size: 52.6px;
+  text-align: left;
 }
 /*****************************
 			logo
@@ -340,18 +376,18 @@ section.maps img:first-child {
 /*****************************
 			media
 *****************************/
-@media screen and (max-width: 768px) {
-  /*
-	header, section{
-		padding-left : 25px;
-		padding-right: 25px;
-	} 
-	*/
+@media screen and (max-width: 767px) {
+  section.navigation .navbar #responsive-menu ul li ul {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
+  }
+  section.navigation .navbar #responsive-menu ul li.desk-hide-list {
+    display: none;
   }
   /*header*/
   header {
@@ -360,11 +396,13 @@ section.maps img:first-child {
   /*navigation*/
   section.navigation {
     position: absolute;
-    top: 130px;
+    top: 136px;
   }
-  section.navigation .navbar .navbar-header .consult,
-  section.navigation .navbar .navbar-header .language {
+  section.navigation .navbar .navbar-header {
     display: none;
+  }
+  section.navigation .navbar #responsive-menu ul {
+    padding-bottom: 12px;
   }
   section.navigation .navbar #responsive-menu ul li {
     display: inline-block;
@@ -385,5 +423,8 @@ section.maps img:first-child {
 @media screen and (min-width: 992px) {
   header .contact_form .phones {
     margin-left: auto;
+  }
+  section.navigation .navbar #responsive-menu ul.navbar-nav li {
+    padding: 5px 22px;
   }
 }

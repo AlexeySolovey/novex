@@ -8,9 +8,9 @@
 		//media
 		if (window.matchMedia('(min-width: 768px)').matches){
 			$(window).scroll(function () {
-				if ($(this).scrollTop() < 133) {
+				if ($(this).scrollTop() < 136) {
 					$('section.navigation').css("position", "absolute");
-					$('section.navigation').css("top", "133px");
+					$('section.navigation').css("top", "136px");
 				} else {
 					$('section.navigation').css("position", "fixed");
 					$('section.navigation').css("top", "0px");
@@ -31,9 +31,9 @@
 		$(window).resize(function(){
 			if (window.matchMedia('(min-width: 768px)').matches){
 				$(window).scroll(function () {
-					if ($(this).scrollTop() < 133) {
+					if ($(this).scrollTop() < 136) {
 						$('section.navigation').css("position", "absolute");
-						$('section.navigation').css("top", "133px");
+						$('section.navigation').css("top", "136px");
 					} else {
 						$('section.navigation').css("position", "fixed");
 						$('section.navigation').css("top", "0");
@@ -53,9 +53,9 @@
 		});
 		$(window).resize(function(){
 			if (window.matchMedia('(min-width: 768px)').matches){
-				if ($(this).scrollTop() < 133) {
+				if ($(this).scrollTop() < 136) {
 					$('section.navigation').css("position", "absolute");
-					$('section.navigation').css("top", "133px");
+					$('section.navigation').css("top", "136px");
 				} else {
 					$('section.navigation').css("position", "fixed");
 					$('section.navigation').css("top", "0");
@@ -91,5 +91,8 @@
 				responsive.collapse('hide');
 			}
 		});
+
+
+
 	});
 })(jQuery)
