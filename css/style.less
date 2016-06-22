@@ -2,6 +2,7 @@
 @fone: #f4f4f4;
 @text: #6e6e6e;
 @text_hover: #d7d7d7;
+@OS-regular: OpenSans-Regular;
 @OS-bold: OpenSans-Bold;
 @OS-semibold: OpenSans-Semibold;
 @OS-extraBold: OpenSans-ExtraBold;
@@ -19,6 +20,23 @@ a:focus {
 }
 button{
 	outline: none;
+	color: #fff;
+	border: none;
+	padding:10px 0;
+	padding-bottom: 15px;
+	font-size: 17.39px;
+	font-family: @OS-bold;
+	text-transform: uppercase;
+	border-radius: 4px;
+	box-shadow: inset 0 -4px 0px 0px #be694b;
+	background: linear-gradient(to top, #f97c50, #f39f81);
+	&:hover{
+		background: linear-gradient(to top, #fc8860, #f8ae94);
+	}
+	&:active{
+		box-shadow: 0 5px #e98967 inset;
+		background: linear-gradient(to top, #f97c50, #f39f81);
+	}
 }
 h2{
 	text-align: center;
@@ -55,6 +73,10 @@ li{
 			fonts
 *****************************/
 /*OPEN SANS*/
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
 @font-face {
 	font-family: OpenSans-Bold;
 	src: url(../fonts/OpenSans-Bold.ttf);
@@ -625,9 +647,47 @@ section.catalog{
 			consultation
 *****************************/
 section.consultation{
-	background: lightblue;
+	button{
+		padding:10px 23px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		box-shadow: inset 0 -4px 0px 0px #8c3414;
+	}
 	img{
-		margin-top: -100px;
+		margin-top: -135px;
+		margin-right: -39px;
+		float: right;
+	}
+	h2{
+		text-align: left;
+		padding-top: 34px;
+		padding-bottom: 6px;
+		font-size: 62.5px;
+		font-family: @OS-extraBold;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	p{
+		color: #fff;
+		font-size: 19.6px;
+		font-family: @OS-extraBold;
+		text-transform: uppercase;
+	}
+}
+/*****************************
+			About
+*****************************/
+section.about{
+	h2{
+		padding-top: 30px;
+		padding-bottom: 20px;
+		font-size: 24px;
+		font-family: @OS-bold;
+	}
+	p{
+		font-size: 18px;
+		font-family: @OS-regular;
+		line-height: 1.5;
 	}
 }
 /*****************************
@@ -638,10 +698,18 @@ section.consultation{
 			Diploms
 *****************************/
 section.diploms{
-	text-align: center;
-	background: lightblue;
+	h2{
+		padding-top: 30px;
+		padding-bottom: 20px;
+		font-size: 24px;
+		font-family: @OS-bold;
+	}
 	img{
-		padding:30px;
+		max-width: 100%;
+		display: block;
+		margin:0 auto;
+		margin-bottom: 30px;
+		 box-shadow: 0px 7px 20px -5px #000000;
 	}
 }
 /*****************************
@@ -650,6 +718,36 @@ section.diploms{
 section.contacts{
 	h2{
 		text-align: center;
+		margin-top: 59px;
+		margin-bottom:45px;
+	}
+	font{
+		color: @orange;
+	}
+	i{
+		padding-right: 5px;
+		font-size: 16px;
+		color: @orange;
+		&.fa-map-marker{
+			font-size: 22px;
+		}
+	}
+	p{
+		font-family: @OS-regular;
+		font-size: 16px;
+	}
+	.item-1 {
+		padding-bottom: 10px;
+		p:first-child{
+			text-transform: uppercase;
+			padding-left: 24px;
+		}
+	}
+	.item-2 p, .item-3{
+		line-height: 1;
+	}
+	.adress{
+		padding-top: 10px;
 	}
 }
 
@@ -658,30 +756,59 @@ section.contacts{
 			maps
 *****************************/
 section.maps{
-	img:first-child{
-		float:left;
-		margin-right: 30px;
+	height: 335px;
+	div{
+		height: 335px;
+	}
+	.left-map{
+		float: left;
+		width: 50%;
+		padding-right: 5px;
+	}
+	.right-map{
+		float: right;
+		width: 50%;
+		padding-left: 5px;
 	}
 }
 /*****************************
 			footer
 *****************************/
-
+footer{
+	padding:21px 0;
+	text-align: center;
+	button{
+		padding: 10px 24px;
+		padding-bottom: 15px;
+		width: 100%;
+	}
+	img{
+		margin-top: -11px;
+	}
+	p{
+		font-size: 18px;
+		font-family: @OS-regular;
+		padding-left: 46px;
+	}
+}
 
 /*****************************
 			media
 *****************************/
 @media screen and (max-width: 767px){
-	section.navigation .navbar #responsive-menu ul li ul{
-		display: none;
-	}
-	section.navigation .navbar #responsive-menu ul.navbar-nav li .jaw{
-		display: none;
-	}
+	section.navigation .navbar #responsive-menu ul li ul{display: none;}
+	section.navigation .navbar #responsive-menu ul.navbar-nav li .jaw{display: none;}
 	section.goods .container, section.goods .col-xs-12 {
 		padding:0;
 		margin:0;
 	}
+	section.advantage h2.h2_catalog{ display: none;}
+	section.catalog{display: none;}
+	section.consultation{display: none;}
+	section.gallery{display: none;}
+	section.contacts .item-4{display: none;}
+	section.contacts p span{display: none;}
+	section.maps{display: none;}
 }
 @media screen and (min-width: 768px){
 	.container{
@@ -791,6 +918,25 @@ section.maps{
 			}
 		}
 	}
+	/*about*/
+	section.about h2{
+		padding-top: 53px;
+		padding-bottom: 60px;
+	}
+	/*diploms*/
+	section.diploms .top{margin-top: 58px;}
+	/*contact*/
+	section.contacts .item-4{display: none;}
+	section.contacts .adress .second{margin-left: -9px; padding-bottom: 10px;}
+	/*footer*/
+	footer{
+		text-align: inherit;
+		padding-top: 59px;
+		button{
+			width: initial;
+			float:right;
+		}
+	}
 }
 
 @media screen and (min-width: 992px){
@@ -819,6 +965,40 @@ section.maps{
 	section.advantage .item-advant{
 		width: 19.6%;
 	}
+	/*contact*/
+	section.contacts .wrap{
+		padding:20px 39px;
+		padding-bottom: 0;
+		margin-bottom: 30px;
+		border: 3px dotted @text_hover;
+		border-radius: 20px;
+	}
+	section.contacts .item-1, section.contacts .item-2, section.contacts .item-3, section.contacts .item-4{display: inline-block; vertical-align: top;}
+	section.contacts .item-1{
+		width: 25%;
+	}
+	section.contacts .item-2{
+		width: 20%;
+	}
+	section.contacts .item-3{
+		width: 20%;
+	}section.contacts .item-4{
+		display: block;
+		width: 33%;
+		float: right;
+	}
+	.item-1 {
+		padding-bottom: 0;
+		p:first-child{margin-bottom:0;}
+	}
+	.item-2 p, .item-3 p{
+		line-height: auto;
+	}
+	.item-4 p{
+		line-height: 1.65;
+		margin-top: -5px;
+	}
+	section.contacts .adress .first{padding-left: 45px;}
 }
 @media screen and (min-width: 1200px){
 	section.manufacturer div{
