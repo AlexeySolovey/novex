@@ -98,3 +98,42 @@
 	height: 65px;
 }
 
+.figure, .save, .storage, .avto, .deliv, .logistic{
+	background: url(sprites.png) no-repeat;
+}
+
+.figure{
+	background-position: -12px -105px ;
+	width: 152px;
+	height: 171px;
+}
+
+.save{
+	background-position: -214px 0;
+	width: 86px;
+	height: 94px;
+}
+
+.storage{
+	background-position: -119px 0;
+	width: 74px;
+	height: 86px;
+}
+
+.avto{
+	background-position: 0 0;
+	width: 98px;
+	height: 68px;
+}
+
+.deliv{
+	background-position: -192px -197px ;
+	width: 100px;
+	height: 92px;
+}
+
+.logistic{
+	background-position: -192px -97px ;
+	width: 83px;
+	height: 87px;
+}
