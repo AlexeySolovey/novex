@@ -633,6 +633,66 @@ section.catalog article:nth-child(even) img.good {
 section.catalog article:nth-child(even) .jaw {
   background: #fff;
 }
+section.catalog article button {
+  padding: 20px 40px;
+}
+section.catalog article div.tehno,
+section.catalog article .kerameya,
+section.catalog article .cherkov,
+section.catalog article .spoly,
+section.catalog article .koagylyant {
+  display: inline-block;
+  margin: 15px 15px;
+}
+section.catalog article div .tehno {
+  background: url(../images/sprites.png);
+  background-position: -136px -98px;
+  width: 172px;
+  height: 30px;
+}
+section.catalog article div .tehno:hover {
+  background-position: -163px -193px;
+}
+section.catalog article div .kerameya {
+  background: url(../images/sprites.png);
+  background-position: -254px -238px;
+  width: 176px;
+  height: 34px;
+}
+section.catalog article div .kerameya:hover {
+  background-position: -189px -243px;
+  background-size: 367px 336px;
+  -webkit-background-size: 367px 336px;
+  -o-background-size: 367px 336px;
+  -moz-background-size: 367px 336px;
+}
+section.catalog article div .cherkov {
+  background: url(../images/sprites.png);
+  background-position: 0 -336px;
+  width: 204px;
+  height: 65px;
+}
+section.catalog article div .cherkov:hover {
+  background-position: -224px -342px;
+}
+section.catalog article div .spoly {
+  background: url(../images/sprites.png);
+  background-position: -259px -138px;
+  width: 123px;
+  height: 51px;
+}
+section.catalog article div .spoly:hover {
+  background-position: 0 -100px;
+}
+section.catalog article div .koagylyant {
+  background: url(../images/sprites.png);
+  background-position: -157px -137px;
+  width: 84px;
+  height: 54px;
+}
+section.catalog article div .koagylyant:hover {
+  background-position: -161px -236px;
+}
 section.catalog article h3 {
   color: #f97c50;
   font-size: 46.95px;
@@ -640,6 +700,13 @@ section.catalog article h3 {
   text-transform: uppercase;
   padding-right: 100px;
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.catalog article .chose_manufacture {
+  font-family: OpenSans-Regular;
+  font-size: 17.6px;
+  color: #6e6e6e;
+  padding: 20px 0;
 }
 section.catalog article .jaw {
   width: 100px;
@@ -649,6 +716,17 @@ section.catalog article .jaw {
   top: -25px;
   width: 140px;
   border-radius: 30px;
+}
+section.catalog article .open_gallary,
+section.catalog article .open_price,
+section.catalog article .open_about {
+  color: #f97c50;
+  text-decoration: underline;
+  font-family: OpenSans-Semibold;
+  font-size: 16px;
+}
+section.catalog article .text-center {
+  padding: 30px 0;
 }
 /*****************************
 			consultation
@@ -787,6 +865,29 @@ footer p {
   font-size: 18px;
   font-family: OpenSans-Regular;
   padding-left: 46px;
+}
+/*****************************
+		modal window
+*****************************/
+section.modal_window .modal-dialog .modal-content input {
+  width: 100%;
+}
+section.modal_window .modal-dialog .modal-content p {
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+section.modal_window .modal-dialog .modal-content .close {
+  color: #f19b0f;
+  margin: -20px -5px;
+  opacity: 1;
+  background-image: url(../images/cross.png);
+  height: 18px;
+  width: 18px;
+}
+section.modal_window .modal-dialog .modal-content .close:hover {
+  background-image: url(../images/cross_hover.png);
 }
 /*****************************
 			media

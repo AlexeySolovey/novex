@@ -28,7 +28,7 @@
 				<div class="col-sm-6">
 					<div class="contact_form">
 						<div class="phones">
-							<button>Заказать звонок</button>
+							<button data-toggle="modal" data-target="#basicModal">Заказать звонок</button>
 							<ul>
 								<li>
 									<i class="fa fa-phone"></i>
@@ -163,7 +163,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<button>Заказать звонок</button>
+					<button data-toggle="modal" data-target="#basicModal">Заказать звонок</button>
 					<ul>
 						<li style="margin-left: 12px;">
 							<i class="fa fa-phone"></i>
@@ -305,11 +305,26 @@
 						<img class="good" src="images/goods_klink.png" alt="Клинкерный кирпич">
 						<h3>Клинкерный кирпич</h3>
 						<button>узнать цену</button>
-						<a href="#">Скачать прайс</a>
-						<a href="#">Галерея</a>
-						<p>выбирете производителя</p>
-						<img src="http://placehold.it/100x50" alt="">
-						<img src="http://placehold.it/100x50" alt="">
+						<a href="#" class="open_price">Скачать прайс</a>
+						<a href="#" class="open_gallary">Галерея</a>
+						<p class="chose_manufacture">Выбирете производителя:</p>
+						<div class="kerameya"></div>
+						<div class="cherkov"></div>
+						<div class="main_about_klink_kerameya">
+							<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+						</div>
+						<div class="main_about_klink_cherkov">
+							<p>Основное описание Белая Церковь Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+						</div>
+						<div class="other_about_klink_kerameya">
+							<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+						</div>
+						<div class="other_about_klink_cherkov">
+							<p>БЕЛАЯ Церковь другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+						</div>
+						<div class="text-center">
+							<a href="" class="open_about">Подробнее о продукте</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -354,7 +369,7 @@
 					<div class="col-md-8">
 						<h2>Консультация</h2>
 						<p>Наши специалисты помогут вам выбрать нужный продукт (текстовку нужно подобрать)</p>
-						<button>Заказать звонок</button>
+						<button data-toggle="modal" data-target="#basicModal">Заказать звонок</button>
 					</div>
 					<div class="hidden-xs hidden-sm col-md-4">
 						<img src="images/girl.png" alt="">
@@ -493,7 +508,28 @@
 			</div>
 		</div>
 	</footer>
-
+	<!-- модальное окно "заказать звонок" -->
+	<section class="modal_window">
+		<div class="modal fade" id="basicModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="close" data-dismiss="modal"></div>
+					<p>Заказать звонок</p>
+					<form action="index.php" method="POST">
+						<div>
+							<input type="text" name="name" placeholder="Имя" required maxlength="23">
+						</div>
+						<div>
+							<input type="text" name="phone" placeholder="Телефон" required maxlength="20">
+						</div>
+						<div class="text-center">
+							<button type="submit" name="button">отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
