@@ -91,7 +91,15 @@
 				responsive.collapse('hide');
 			}
 		});
-
+		//fancybox
+		$(".serteficates").fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none'
+		});
+		$(".goods_gallery").fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none'
+		});
 
 
 	});
