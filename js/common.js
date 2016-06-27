@@ -100,6 +100,12 @@
 			openEffect  : 'none',
 			closeEffect : 'none'
 		});
+		$(".clider-picture").fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none'
+		});
+		// gallery
+		$('.bxslider').bxSlider();
 
 
 	});

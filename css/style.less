@@ -604,13 +604,17 @@ section.advantage{
 section.catalog{
 	article{
 		padding-top: 53px;
+		padding-bottom: 100px;
 		position: relative;
 		box-shadow: inset 0px 9px 29px -16px #777;
 		&:nth-child(odd){
 			z-index: 1;
 			img{
-				&.good{float: right;}
+				&.good{float: right; margin-right: -45px;}
 				&.klink{margin-right: -20px; padding-right: 20px;}
+				&.lichevoy{margin-right: -45px;}
+				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px;}
+				&.ryadovoy{margin-right: -45px;}
 			}
 			.jaw{
 				background: #f4f4f4;
@@ -619,9 +623,11 @@ section.catalog{
 		&:nth-child(even){
 			background:#f4f4f4;
 			img{
-				&.good{float: left;}
+				&.good{float: left; margin-left: -30px;}
 				&.klink{margin-left: -65px; padding-right: 17px;}
 				&.lichevoy{margin-right: -45px;}
+				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px;}
+				&.ryadovoy{margin-right: -45px;}
 			}
 			.jaw{
 				background: #fff;
@@ -655,6 +661,18 @@ section.catalog{
 					}
 				}
 				a{
+					&.list{
+						color: @orange;
+						text-decoration: none;
+						font-family: @OS-bold;
+						font-size:16.52px;
+						text-transform: uppercase;
+						padding-right: 110px;
+						line-height: 1.5;
+						&:hover{
+							color:red;
+						}
+					}
 					&.tehno{
 						background: url(../images/sprites.png);
 						background-position: -136px -98px;
