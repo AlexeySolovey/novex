@@ -61,7 +61,7 @@
 				<div class="navbar-header">
 					<div class="col-xs-6">
 						<div class="consult">
-							<a href="#">Консультация</a>
+							<a href="#" data-toggle="modal" data-target="#basicModal">Консультация</a>
 						</div>
 					</div>
 					<div class="col-xs-4">
@@ -201,7 +201,7 @@
 							<a href="#klink_good">
 								<p>Клинкерный кирпич</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
@@ -211,7 +211,7 @@
 							<a href="#lichevoy_good">
 								<p>Лицевой кирпич</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item bruschatka">
@@ -221,7 +221,7 @@
 							<a href="#bruschatka_good">
 								<p>Клинкерная брусчатка</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
@@ -231,7 +231,7 @@
 							<a href="#ryadovoy_good">
 								<p>Кирпич керамический рядовой м100</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
@@ -241,7 +241,7 @@
 							<a href="#keramobloki_good">
 								<p>Поризованные керамические блоки</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
@@ -251,7 +251,7 @@
 							<a href="#ruberoid_good">
 								<p>Кровельные материалы (рубероид)</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
@@ -261,7 +261,7 @@
 							<a href="#materialu_good">
 								<p>Гидроизоляционные материалы</p>
 							</a>
-							<button>Узнать цену</button>
+							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 					</div>
@@ -335,7 +335,7 @@
 						<div class="jaw"></div>
 						<img class="good klink" src="images/goods_klink.png" alt="Клинкерный кирпич">
 						<h3>Клинкерный кирпич</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_klink.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -395,7 +395,7 @@
 						<div class="jaw"></div>
 						<img class="good lichevoy" src="images/goods_lichevoy.png" alt="Лицевой кирпич">
 						<h3>Лицевой <br/> кирпич</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_lichevoy.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -443,7 +443,7 @@
 						<div class="jaw"></div>
 						<img class="good bruschatka" src="images/goods_bruschatka.png" alt="Клинкерная брусчатка">
 						<h3>Клинкерная брусчатка</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_bruschatka.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -493,7 +493,7 @@
 						<div class="jaw"></div>
 						<img class="good lichevoy" src="images/goods_ryadovoy.png" alt="Рядовой кирпич">
 						<h3>Кирпич керамический рядовой М100</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_ryadovoy.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -567,7 +567,7 @@
 						<div class="jaw"></div>
 						<img class="good keramobloki" src="images/goods_keramobloki.png" alt="Керамоблоки">
 						<h3>Поризованные Керамические блоки</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_keramobloki.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -617,7 +617,7 @@
 						<div class="jaw"></div>
 						<img class="good ruberoid" src="images/goods_ruberoid.png" alt="Рубероид">
 						<h3>Кровельные материалы (Наплавляемый рубероид)</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_ruberoid.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -667,7 +667,7 @@
 						<div class="jaw"></div>
 						<img class="good materialu" src="images/goods_materialu.png" alt="Гидроизоляционные материалы">
 						<h3 class="materialu">Гидроизоляционные материалы</h3>
-						<button>узнать цену</button>
+						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 						<a href="price/price_by_materialu.rar" class="open_price">Скачать прайс</a>
 						<!-- start gallery block -->
 						<div class="open_gallary">
@@ -746,49 +746,49 @@
 				<div class="col-md-12">
 					<h2>Галерея</h2>
 				</div>
-				<div class="col-md-12">
+				<div class="col-sm-12">
 						<ul class="bxslider">
 							<li>
 								<div class="clider">
 									<div class="row">
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0017.jpg" title="картинка">
 												<img src="images/gallery/prev/IMG_0017.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0019.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0019.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0020.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0020.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0023.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0023.JPG" alt="">
 											</a>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0024.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0024.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0025.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0025.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0027.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0027.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0028.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0028.JPG" alt="">
 											</a>
@@ -799,44 +799,44 @@
 							<li>
 								<div class="clider">
 									<div class="row">
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0030.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0030.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0037.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0037.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0036.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0036.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0033.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0033.JPG" alt="">
 											</a>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0034.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0034.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0035.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0035.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0042.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0042.JPG" alt="">
 											</a>
 										</div>
-										<div class="col-md-3">
+										<div class="col-sm-3">
 											<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0044.JPG" title="картинка">
 												<img src="images/gallery/prev/IMG_0044.JPG" alt="">
 											</a>
@@ -846,20 +846,20 @@
 							</li>
 							<li>
 								<div class="row">
-									<div class="col-md-3">
+									<div class="col-sm-3">
 										<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0040.JPG" title="картинка">
 											<img src="images/gallery/prev/IMG_0040.JPG" alt="">
 										</a>
 									</div>
-									<div class="col-md-3">
+									<div class="col-sm-3">
 										<a class="clider-picture" rel="gallery" href="images/gallery/IMG_0041.JPG" title="картинка">
 											<img src="images/gallery/prev/IMG_0041.JPG" alt="">
 										</a>
 									</div>
-									<div class="col-md-3">
+									<div class="col-sm-3">
 										
 									</div>
-									<div class="col-md-3">
+									<div class="col-sm-3">
 										
 									</div>
 								</div>
@@ -989,13 +989,16 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="close" data-dismiss="modal"></div>
-					<p>Заказать звонок</p>
+					<p id="question_title">Заказать звонок</p>
 					<form action="index.php" method="POST">
 						<div>
 							<input type="text" name="name" placeholder="Имя" required maxlength="23">
 						</div>
 						<div>
 							<input type="text" name="phone" placeholder="Телефон" required maxlength="20">
+						</div>
+						<div>
+							<input id="topic" type="hidden" name="topic">
 						</div>
 						<div class="text-center">
 							<button type="submit" name="button">отправить</button>
@@ -1005,6 +1008,20 @@
 				</div>
 			</div>
 		</div>
+	<?php
+		$name=$_POST['name'];
+		$phone=$_POST['phone'];
+		$topic=$_POST['topic'];
+		$to_address="Soloveyalexey3@gmail.com";
+		$subject="Отзыв с сайта Novex";
+		$mail_content="От: ".$name."\n\n"."Телефон: ".$phone."\n\n"."Хочет: ".$topic;
+		if(isset($_POST['button'])){
+			if($_POST['name']!="") {
+				mail($to_address, $subject, $mail_content);
+				exit(header('Location:'.$_SERVER['REQUEST_URI'].''));
+			}
+		}
+	?>
 	</section>
 
 

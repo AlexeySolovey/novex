@@ -106,6 +106,25 @@
 		});
 		// gallery
 		$('.bxslider').bxSlider();
+		//questions/coll back
+		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
+			$("#topic").val("Заказать звонок");
+			$("#question_title").text("Заказать звонок");
+		});
+		$(".navigation .consult a").click(function(){
+			$("#topic").val("Консультация");
+			$("#question_title").text("Консультация");
+		});
+		$("section.goods button").click(function(){
+			var val = $(this).parent().find("p").html();
+			$("#question_title").text("Узнать цену");
+			$("#topic").val("Узнать цену "+ val);
+		});
+		$("section.catalog button").click(function(){
+			var val = $(this).parent().find("h3").html();
+			$("#question_title").text("Узнать цену ");
+			$("#topic").val("Узнать цену "+ val);
+		});
 
 
 	});
