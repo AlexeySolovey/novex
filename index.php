@@ -102,13 +102,13 @@
 								<div></div>
 							</div>
 							<ul class="dropdown-menu my-pull-right"> 
-								<li><a href="#">Клинкерный кирпич</a></li>
-								<li><a href="#">Лицевой кирпич</a></li>
-								<li><a href="#">Клинкерная брусчатка</a></li>
-								<li><a href="#">Кирпич керамический рядовой м100</a></li>
-								<li><a href="#">Поризованные керамические блоки</a></li>
-								<li><a href="#">Кровельные материалы(рубероид)</a></li>
-								<li><a href="#">Гидроизоляционные материалы</a></li>
+								<li><a href="#klink_good">Клинкерный кирпич</a></li>
+								<li><a href="#lichevoy_good">Лицевой кирпич</a></li>
+								<li><a href="#bruschatka_good">Клинкерная брусчатка</a></li>
+								<li><a href="#ryadovoy_good">Кирпич керамический рядовой м100</a></li>
+								<li><a href="#keramobloki_good">Поризованные керамические блоки</a></li>
+								<li><a href="#ruberoid_good">Кровельные материалы(рубероид)</a></li>
+								<li><a href="#materialu_good">Гидроизоляционные материалы</a></li>
 							</ul>
 						</li>
 						<li>
@@ -189,6 +189,7 @@
 		</div>
 	</section>
 	<section class="goods">
+		<a class="anchor_for_goods" name="catalog"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -283,7 +284,7 @@
 		</div>
 	</section>
 	<section class="advantage">
-		<a name="advantage"></a>
+		<a class="advantage_anchor" name="advantage"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -326,7 +327,7 @@
 		</div>
 	</section>
 	<section class="catalog">
-		<a name="catalog"></a>
+		<a class="catalog_anchor" name="catalog"></a>
 		<article>
 			<a class="goods_anchor" name="klink_good"></a>
 			<div class="container">
@@ -727,7 +728,7 @@
 		</div>
 	</section>
 	<section class="about">
-		<a name="about"></a>
+		<a class="about_anchor" name="about"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10">
@@ -740,7 +741,7 @@
 		</div>
 	</section>
 	<section class="gallery">
-		<a name="gallery"></a>
+		<a class="gallery_anchor" name="gallery"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -899,7 +900,7 @@
 		</div>
 	</section>
 	<section class="contacts">
-		<a name="contacts"></a>
+		<a class="contacts_anchor" name="contacts"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
