@@ -192,7 +192,7 @@
 		<a class="anchor_for_goods" name="catalog"></a>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-12 col-md-12">
 					<div class="wrap">
 						<div class="border"></div>
 						<div class="good-item">
@@ -712,17 +712,15 @@
 		</article>
 	</section>
 	<section class="consultation">
-		<div class="parallax-window" data-parallax="scroll" data-image-src="images/call_back_fon.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<h2>Консультация</h2>
-						<p>Наши специалисты помогут вам выбрать нужный продукт (текстовку нужно подобрать)</p>
-						<button data-toggle="modal" data-target="#basicModal">Заказать звонок</button>
-					</div>
-					<div class="hidden-xs hidden-sm col-md-4">
-						<img src="images/girl.png" alt="">
-					</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Консультация</h2>
+					<p>Наши специалисты помогут вам выбрать нужный продукт (текстовку нужно подобрать)</p>
+					<button data-toggle="modal" data-target="#basicModal">Заказать звонок</button>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-4">
+					<img src="images/girl.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -733,9 +731,9 @@
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10">
 					<h2>О нас</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptatem nemo laudantium quibusdam officia, autem libero dicta iste, nam? Officiis, perspiciatis quis impedit mollitia beatae itaque nisi, deserunt, quasi enim voluptatum aut? Eligendi suscipit nesciunt provident tempore atque sequi impedit odit ratione, libero placeat! Dolorem minus iure, dolores earum ut, temporibus vel ipsa maiores quidem dolorum. Sapiente id quaerat ut officiis officia est asperiores maiores eum ipsam veniam voluptatum iusto nisi consequatur sed eligendi ex rerum dolorum corrupti, iure minus molestiae quasi. Tempora nisi soluta cum incidunt adipisci, nesciunt quae! Maxime aliquid ad blanditiis accusamus voluptates. Recusandae reprehenderit libero eos soluta obcaecati cum animi porro placeat, ipsam id, ratione, sunt modi itaque nemo. Velit molestiae blanditiis animi vitae corporis, amet.</p>
+					<p>Предприятие ООО «ТК НОВЕКС» основано в 1993 году и уже 23 год успешно работает на рынке строительных материалов Украины. Наше предприятие является одним из крупнейших поставщиков кровельных и стеновых стройматериалов для предприятий горно-металлургических комплексов центрального и восточного регионов: ООО «Метинвест Холдинг» (ПАО «ИнГОК», ПАО «СевГОК», ПАО «ЦГОК», ПАО «КЗГО», ПАО «КЖРК»), ПАО «АрселорМиттал Кривой Рог», ПАО «Евраз Сухая Балка», Группа “Интерпайп” и др.</p>
 					<br>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ut eum quisquam, exercitationem atque alias fuga blanditiis! Hic numquam consectetur obcaecati magnam veniam recusandae nobis dicta, explicabo omnis incidunt quaerat voluptatibus, fuga earum! Fugiat nam eligendi nobis, modi eos inventore vitae, blanditiis, consequuntur delectus corporis debitis eum quisquam quis eveniet.</p>
+					<p>ООО «ТК НОВЕКС» активно сотрудничает со строительными и проектными предприятиями в сфере коттеджного и многоэтажного строительства и принимает участие в строительных выставках, проводимых в Днепропетровской области и Киеве.</p>
 				</div>
 			</div>
 		</div>
@@ -1029,7 +1027,7 @@
 
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="js/parallax.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
