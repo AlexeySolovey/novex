@@ -1019,7 +1019,7 @@
 		if(isset($_POST['button'])){
 			if($_POST['name']!="") {
 				mail($to_address, $subject, $mail_content);
-				exit(header('Location:'.$_SERVER['REQUEST_URI'].''));
+				/*exit(header('Location:'.$_SERVER['REQUEST_URI'].''));*/
 			}
 		}
 	?>
