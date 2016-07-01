@@ -18,6 +18,9 @@ a:focus {
 	background: transparent; /*отключить background*/
 	color: @text_hover;
 }
+body{
+	overflow-x: hidden;
+}
 button{
 	outline: none;
 	color: #fff;
@@ -457,6 +460,7 @@ section.goods{
 				margin-left: -45px;
 				margin-bottom: -11px;
 				border-radius: 30px;
+				box-shadow: 0px 12px 23px -8px #c0c0c0;
 			}
 		}
 	}
@@ -627,6 +631,7 @@ section.catalog{
 		padding-top: 53px;
 		position: relative;
 		box-shadow: inset 0px 9px 29px -16px #777;
+		overflow-x: hidden;
 		&:nth-child(odd){
 			z-index: 1;
 			background: #fff;
@@ -634,12 +639,11 @@ section.catalog{
 				&.good{float: right; margin-right: -45px;}
 				&.klink{margin-right: -20px; padding-right: 20px;}
 				&.lichevoy{margin-right: -45px;}
-				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px;}
 				&.ryadovoy{margin-right: -45px;}
 			}
 			.jaw{
 				background: #f4f4f4;
-				box-shadow: 0px 6px 23px -8px #c0c0c0
+				box-shadow: 0px 12px 23px -8px #c0c0c0
 			}
 		}
 		&:nth-child(even){
@@ -647,10 +651,9 @@ section.catalog{
 			img{
 				&.good{float: left; margin-left: -30px;}
 				&.klink{margin-left: -65px; padding-right: 17px;}
-				&.lichevoy{margin-right: -45px;}
-				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px;}
-				&.ryadovoy{margin-right: -45px;}
+				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px; max-width: 400px;}
 				&.materialu{margin-left: -45px;}
+				&.keramobloki{}
 			}
 			.jaw{
 				background: #fff;
@@ -886,6 +889,39 @@ section.about{
 		font-family: @OS-regular;
 		line-height: 1.5;
 	}
+	.text-center{
+		font-size: 16px;
+		font-family: @OS-semibold;
+		.open_about{
+			color: @orange;
+			&:hover{
+				color: @orange;
+				&:after{border: 6px solid transparent;border-bottom: 6px solid @orange;}
+				&.collapsed::after{
+					border: 6px solid transparent;
+					border-left: 6px solid @orange;
+				}
+			}
+			&:after{
+				content:"";
+				border: 6px solid transparent;
+				border-bottom: 6px solid @orange;
+				position: absolute;
+				margin-top: 6px;
+				margin-left: 6px;
+			}
+			&.collapsed{
+				&:after{
+					content:"";
+					border: 6px solid transparent;
+					border-left: 6px solid @orange;
+					position: absolute;
+					margin-top: 6px;
+					margin-left: 6px;
+				}
+			}
+		}
+	}
 }
 /*****************************
 			Gallery
@@ -1080,6 +1116,7 @@ section.modal_window{
 				width: 140px;
 				border-radius: 30px;
 				bottom: -13px;
+				box-shadow: 0px 15px 20px -7px #333;
 			}
 		}
 	}
