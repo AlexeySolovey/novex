@@ -25,7 +25,9 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="images/logo.png" alt="logo">
+					<a href="/">
+						<img src="images/logo.png" alt="logo">
+					</a>
 				</div>
 				<div class="col-sm-6">
 					<div class="contact_form">
@@ -145,7 +147,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-10 col-lg-9">
-						<h2>кровельные и стеновые стройматериалы в Кривом Роге</h2>
+						<h2>кровельные и стеновые стройматериалы <br/>в Кривом Роге</h2>
 					</div>
 				</div>
 			</div>
@@ -155,7 +157,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<img src="images/logo.png" class="img-responsive" alt="logo">
+					<a href="/">
+						<img src="images/logo.png" alt="logo">
+					</a>
 					<h2>кровельные и стеновые стройматериалы в Кривом Роге</h2>
 				</div>
 			</div>
@@ -260,7 +264,8 @@
 								<img src="images/goods_materialu.png" alt="Гидроизоляционные материалы">
 							</a>
 							<a href="#materialu_good">
-								<p>Гидроизоляционные материалы</p>
+								<p class="hidden-sm hidden-md hidden-lg">Гидроизоляционные материалы</p>
+								<p class="hidden-xs">Гидроизо-ляционные материалы</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
@@ -358,28 +363,38 @@
 						<p class="chose_manufacture">Выбирете производителя:</p>
 						<div class="tabs">
 							<ul>
-								<li class="active">
+								<li class="active"><a href="#main_about_klink_cherkov" class="cherkov" data-toggle="tab"></a></li>
+								<li >
 									<a href="#main_about_klink_kerameya" class="kerameya" data-toggle="tab"></a>
 								</li>
-								<li><a href="#main_about_klink_cherkov" class="cherkov" data-toggle="tab"></a></li>
 							</ul>
 							<div class="tab-content">
-								<div class="tab-pane active fade in" id="main_about_klink_kerameya">
+								<div class="tab-pane active fade in" id="main_about_klink_cherkov"> 
+									<p>Клинкерный кирпич ТМ Клинкерам ООО Керамейя производится в Украине с 2008 г  имеет пустотность 0%, 36% и 48%, марку прочности на сжатие 300-350 кгс/см2, водопоглощение 5% и морозостойкость более 150 циклов.<br/>
+									Основная цветовая гамма-  красный Рубин, коричневый Оникс, желтый Янтарь,  кремовый  Жемчуг, также популярная гамма Магма Топаз желто-коричневый, Диабаз серо-зелено-коричневый, Гранит  красно-коричневый.</p>
+									<div class="collapse" id="other_about_klink_cherkov">
+										<p>Размеры кирпича- стандартный Пр1 250х120х65 мм; Ф10 250х90х65 мм; Пр1/2 250х60х65 мм.<br/>
+										Разновидности-фасонный и одинарный.<br/> 
+										Основаная отличительная черта клинкерного кирпича ТМ Клинкерам – производство декорированного кирпича: с рельефной поверхностью Рустика и рельефной поверхностью  декорированой разноцветной каменной крошкой Рустика Торкрет.<br/>
+										Применяется при высококачественной облицовке фасадов,  внутреннего декора, облицовки барбекю и каминов.<br/> 
+										Клинкерный кирпич ТМ Клинкерам обязателен в применении при облицовки заборов и подпорных стенок, так как высокая марочность, морозостойкость и низкое водопоглощение являются гарантией качества построек, которые максимально часто подвергаются воздействию перепадов температур зимой. Применение клинка препятствуют появлению высолов.<br/>
+										Кирпич с пустоность 48% имеет более тонкую наружную стенку и производится для облицовки высотных зданий.<br/>
+										Весь кирпич упакован в пленку на поддонах. <br/>
+										Количество: Пр1 250х120х65- 453 шт; Ф10 250х90х65 – 604 шт;  Пр1/2 250х60х65 – 906 шт; фасонные изделия- 453шт.<br/>
+										Вес 1 п – 1,35-1,5 т.<br/>
+										Вся продукция ТМ Клинкерам сертифицирована.</p>
+									</div>
+									<div class="text-center">
+										<a href="#other_about_klink_cherkov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="main_about_klink_kerameya">
 									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
 									<div class="collapse" id="other_about_klink_kerameya">
 										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_klink_kerameya" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
-									</div>
-								</div>
-								<div class="tab-pane fade" id="main_about_klink_cherkov"> 
-									<p>Основное описание Белая Церковь Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi  </p>
-									<div class="collapse" id="other_about_klink_cherkov">
-										<p>БЕЛАЯ Церковь другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
-									</div>
-									<div class="text-center">
-										<a href="#other_about_klink_cherkov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
 									</div>
 								</div>
 							</div>
@@ -422,9 +437,16 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_lichevoy_chercov">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+									<p>Лицевой кирпич ТМ Білоцерківські будматеріали производится с 2003 г и представляет собой кирпич с пустотностью 36%, имеющий марку прочности на сжатие 200-250 кгс/см2, водопоглощение 6-8 % и морозостойкость более 100-150 циклов. Такие технические показатели в 1,5-2 раза превышают принятые в Украине показатели технических характеристик лицевого керамического кирпича. <br/>
+									Основная цветовая гамма- классический красный, коричневый, желтый, персиковый, кремовый, кристальный (цвет кварцового песка) и флеш (сочетание красно-желто-коричнево-зеленоватой гаммы).</p>
 									<div class="collapse" id="other_about_lichevoy_chercov">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+										<p>Размеры кирпича- стандартный 250х120х65 мм; «евро» 250х90х65 мм; «брусок» 250х65х65 мм, утолщенный 250х120х88 мм.<br/>
+										Разновидности-фасонный,одинарный, утолщенный.<br/>
+										Применяется при высококачественной облицовке фасадов и для внутреннего декора. Характерно, что применение лицевого кирпича марочностью не ниже 200 препятствует появлению высолов.<br/>
+										Весь кирпич упакован в пленку на поддонах.<br/>
+										Количество на поддоне: 250х120х65- 416 шт; «евро» 250х90х65 – 520 шт; «брусок» 250х65х65 – 728 шт, фасонный -312шт; утолщенный 250х120х88 мм – 288 шт.<br/>
+										Вес 1 п – 0,675 т; 1,05 т.<br/>
+										Вся продукция ТМ Білоцерківські будматеріали сертифицирована. </p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_lichevoy_chercov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -472,9 +494,13 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_bruschatka_kerameya">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+									<p>Клинкерная брусчатка ТМ Бруккерам ООО Керамейя-единственная клинкерная брусчатка, которая производится в Украине. Клинкерная брусчатка ТМ Бруккерам производится с 2011 г и имеет пустоность 0%, марку 450-550 кгс/см2, водопоглощение 2% и морозостойкость 250 циклов, а также низкий коэффициент истираемости 0,35 г/м3.<br/>
+									Основная цветовая гамма-красный Рубин, коричневый Оникс, желтый Янтарь, кремовый Жечмуг и красно-коричневый Флеш.<br/>
+									Размеры брусчатки-200х100х45 мм и 200х100х52 мм. </p>
 									<div class="collapse" id="other_about_bruschatka_kerameya">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+										<p>Клинкерная брусчатка ТМ Бруккерам ООО Керамейя-единственная клинкерная брусчатка, которая производится в Украине. Клинкерная брусчатка ТМ Бруккерам производится с 2011 г и имеет пустоность 0%, марку 450-550 кгс/см2, водопоглощение 2% и морозостойкость 250 циклов, а также низкий коэффициент истираемости 0,35 г/м3.<br/>
+										Основная цветовая гамма-красный Рубин, коричневый Оникс, желтый Янтарь, кремовый Жечмуг и красно-коричневый Флеш.<br/>
+										Размеры брусчатки-200х100х45 мм и 200х100х52 мм.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_bruschatka_kerameya" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -528,27 +554,45 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_ryadovoy_dnepr">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+									<p>Производитель: заводы Днепропетровской, Кировоградской и Черкасской обл..<br/>
+									Кирпич  пустотностью 13% полусухого прессования М100, М75.<br/>
+									Упаковка: в пленке на поддонах.<br/>
+									Количество в поддоне: 480 шт, вес 1п-1,4 т.<br/>
+									Кирпич пустотностью 0% пластического формования М100.</p>
 									<div class="collapse" id="other_about_ryadovoy_dnepr">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+										<p>Упаковка: на поддоне без пленки.<br/>
+										Количество на поддоне: 333 шт, вес 1п – 1,05 т.<br/>
+										Качество всего кирпича подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_ryadovoy_dnepr" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
 									</div>
 								</div>
 								<div class="tab-pane fade" id="main_about_ryadovoy_kirov">
-									<p>Основное описание КЕРАМИЯ </p>
+									<p>Производитель: заводы Днепропетровской, Кировоградской и Черкасской обл..<br/>
+									Кирпич  пустотностью 13% полусухого прессования М100, М75.<br/>
+									Упаковка: в пленке на поддонах.<br/>
+									Количество в поддоне: 480 шт, вес 1п-1,4 т.<br/>
+									Кирпич пустотностью 0% пластического формования М100.</p>
 									<div class="collapse" id="other_about_ryadovoy_kirov">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum </p>
+										<p>Упаковка: на поддоне без пленки.<br/>
+										Количество на поддоне: 333 шт, вес 1п – 1,05 т.<br/>
+										Качество всего кирпича подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_ryadovoy_kirov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
 									</div>
 								</div>
 								<div class="tab-pane fade" id="main_about_ryadovoy_cherkas">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus  </p>
+									<p>Производитель: заводы Днепропетровской, Кировоградской и Черкасской обл..<br/>
+									Кирпич  пустотностью 13% полусухого прессования М100, М75.<br/>
+									Упаковка: в пленке на поддонах.<br/>
+									Количество в поддоне: 480 шт, вес 1п-1,4 т.<br/>
+									Кирпич пустотностью 0% пластического формования М100.</p>
 									<div class="collapse" id="other_about_ryadovoy_cherkas">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+										<p>Упаковка: на поддоне без пленки.<br/>
+										Количество на поддоне: 333 шт, вес 1п – 1,05 т.<br/>
+										Качество всего кирпича подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_ryadovoy_cherkas" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -596,9 +640,24 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_keramobloki_kerameya">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+									<p>Поризованные керамические блоки ТМ Теплокерам ООО Керамейя М100 имеют водопоглощение 10-15%, морозостойкость 35-50 циклов и являются заменой рядовому керамическому кирпичу. Обладают пониженной теплопроводностью за счет введения в глиняную смесь древесной стружки и обжиге при очень высокой температуре, образуя микропоры, повышающие теплозащитные свойства.</p>
 									<div class="collapse" id="other_about_keramobloki_kerameya">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+										<p>Разновидности:<br/><br/>
+											керамоблок 380,<br/>
+											керамоблок 2,12 НФ.<br/><br/>
+
+											Рамеры:<br/>
+											керамоблок 380 – 380х250х238 мм (эквивалент 11,5 штук стандартного кирпича)<br/>
+											керамоблок 2,12 НФ – 250х120х138 (эквивалент 2,12 штук стандартного кирпича)<br/><br/>
+
+											Применяется для возведения наружных стен под облицовку, а также  внутренних стен и перегородок. При применении поризованных блоков 	нет необходимости утеплять наружные стены дополнительно, т.к. блоки сами по себе уже являються утеплителем, причем с высокой паропроницаемостью.<br/>
+											Упаковка: на поддонах в пленке.<br/><br/>
+
+											Количество на поддоне:<br/>
+											блок 380 – 60 шт, вес 1 п-1,3 т;<br/>
+											блок 2,12НФ – 280 щт, вес 1 п-1,13 т.<br/><br/>
+
+											Качество блоков ТМ Теплокерам подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_keramobloki_kerameya" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -946,7 +1005,8 @@
 							</p>
 						</div>
 						<div class="item-4">
-							<p>Cдесь будет график работы или какое-то примечание</p>
+							<p>График работы (офис и склад)<br/>
+							Пн-Пт: 8:30-17:30</p>
 						</div>
 					</div>
 				</div>
@@ -983,7 +1043,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="hidden-xs col-sm-5">
-					<img src="images/logo.png" alt="logo">
+					<a href="/">
+						<img src="images/logo.png" alt="logo">
+					</a>
 				</div>
 				<div class="col-xs-12 col-sm-7">
 					<button data-toggle="modal" data-target="#basicModal">Заказать звонок</button>

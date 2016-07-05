@@ -108,11 +108,12 @@ header{
 	.contact_form{
 		.phones{
 			background: @fone;
-			width: 370px;
+			width: 362px;
 			margin-left: -25px;
+			border-radius: 5px;
 			ul{
 				margin-right: 0px;
-				padding-left: 18px;
+				padding-left: 10px;
 				padding-top: 4px;
 				padding-bottom: 7px;
 				li{
@@ -325,7 +326,7 @@ section.baner{
 	display: none;
 	.parallax-window{
 		h2{
-			padding-top: 214px;
+			padding-top: 183px;
 			line-height: 1.4;
 			color: #fff;
 			text-transform: uppercase;
@@ -393,6 +394,7 @@ section.call-me{
 			goods
 *****************************/
 section.goods{
+	margin-top: 23px;
 	.anchor_for_goods{
 		position: absolute;
 		margin-top: -20px;
@@ -651,7 +653,7 @@ section.catalog{
 			img{
 				&.good{float: left; margin-left: -30px;}
 				&.klink{margin-left: -65px; padding-right: 17px;}
-				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px; max-width: 400px;}
+				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px;}
 				&.materialu{margin-left: -45px;}
 				&.keramobloki{}
 			}
@@ -701,7 +703,7 @@ section.catalog{
 						padding-right: 110px;
 						line-height: 1.5;
 						&:hover{
-							color:red;
+							color:@text_hover;
 						}
 					}
 					&.tehno{
@@ -718,7 +720,7 @@ section.catalog{
 						background-position: -254px -238px;
 						width: 176px;
 						height: 34px;
-						margin-bottom: 13px;
+						margin-bottom: 17px;
 						&:hover{
 							background-position: -189px -243px;
 							background-size: 367px 336px;
@@ -763,8 +765,8 @@ section.catalog{
 			font-size: 46.95px;
 			font-family: @OS-bold;
 			text-transform: uppercase;
-			padding-top: 8px;
-			padding-bottom: 30px;
+			margin-top: 0;
+			padding-bottom: 58px;
 			&.materialu{padding-right: 0;}
 		}
 		p{
@@ -776,6 +778,7 @@ section.catalog{
 			font-size: 17.6px;
 			color: #6e6e6e;
 			padding-top:25px;
+			padding-bottom: 12px;
 		}
 		.jaw{
 			width: 100px;
@@ -792,7 +795,7 @@ section.catalog{
 			font-family: @OS-semibold;
 			font-size:16px;
 			&:hover{
-				color:red;
+				color:@text_hover;
 			}
 		}
 		.open_gallary, .open_price{
@@ -804,7 +807,7 @@ section.catalog{
 			padding: 30px 0;
 			padding-bottom: 63px;
 			.open_about{
-				color: @text;
+				color: @text_hover;
 				&:hover{
 					color: @orange;
 					&:after{border: 6px solid transparent;border-bottom: 6px solid @orange;}
@@ -816,7 +819,7 @@ section.catalog{
 				&:after{
 					content:"";
 					border: 6px solid transparent;
-					border-bottom: 6px solid @text;
+					border-bottom: 6px solid @text_hover;
 					position: absolute;
 					margin-top: 6px;
 					margin-left: 6px;
@@ -825,7 +828,7 @@ section.catalog{
 					&:after{
 						content:"";
 						border: 6px solid transparent;
-						border-left: 6px solid @text;
+						border-left: 6px solid @text_hover;
 						position: absolute;
 						margin-top: 6px;
 						margin-left: 6px;
@@ -974,7 +977,7 @@ section.diploms{
 		display: block;
 		margin:0 auto;
 		margin-bottom: 30px;
-		 box-shadow: 0px 7px 20px -5px #000000;
+		 box-shadow: 0px 7px 20px -5px #ccc;
 	}
 }
 /*****************************
@@ -1318,7 +1321,7 @@ section.modal_window{
 			padding-right: 100px;
 		}
 		ul{
-			padding-bottom: 76px;
+			padding-bottom: 50px;
 		}
 		.chose_manufacture{
 			padding-top: 48px;

@@ -127,12 +127,13 @@ header img {
 }
 header .contact_form .phones {
   background: #f4f4f4;
-  width: 370px;
+  width: 362px;
   margin-left: -25px;
+  border-radius: 5px;
 }
 header .contact_form .phones ul {
   margin-right: 0px;
-  padding-left: 18px;
+  padding-left: 10px;
   padding-top: 4px;
   padding-bottom: 7px;
 }
@@ -342,7 +343,7 @@ section.baner {
   display: none;
 }
 section.baner .parallax-window h2 {
-  padding-top: 214px;
+  padding-top: 183px;
   line-height: 1.4;
   color: #fff;
   text-transform: uppercase;
@@ -407,6 +408,9 @@ section.call-me ul li i {
 /*****************************
 			goods
 *****************************/
+section.goods {
+  margin-top: 23px;
+}
 section.goods .anchor_for_goods {
   position: absolute;
   margin-top: -20px;
@@ -684,7 +688,6 @@ section.catalog article:nth-child(even) img.bruschatka {
   margin-left: -30px;
   padding-right: 20px;
   margin-top: 20px;
-  max-width: 400px;
 }
 section.catalog article:nth-child(even) img.materialu {
   margin-left: -45px;
@@ -746,7 +749,7 @@ section.catalog article ul li a.list {
   line-height: 1.5;
 }
 section.catalog article ul li a.list:hover {
-  color: red;
+  color: #d7d7d7;
 }
 section.catalog article ul li a.tehno {
   background: url(../images/sprites.png);
@@ -762,7 +765,7 @@ section.catalog article ul li a.kerameya {
   background-position: -254px -238px;
   width: 176px;
   height: 34px;
-  margin-bottom: 13px;
+  margin-bottom: 17px;
 }
 section.catalog article ul li a.kerameya:hover {
   background-position: -189px -243px;
@@ -803,8 +806,8 @@ section.catalog article h3 {
   font-size: 46.95px;
   font-family: OpenSans-Bold;
   text-transform: uppercase;
-  padding-top: 8px;
-  padding-bottom: 30px;
+  margin-top: 0;
+  padding-bottom: 58px;
 }
 section.catalog article h3.materialu {
   padding-right: 0;
@@ -818,6 +821,7 @@ section.catalog article .chose_manufacture {
   font-size: 17.6px;
   color: #6e6e6e;
   padding-top: 25px;
+  padding-bottom: 12px;
 }
 section.catalog article .jaw {
   width: 100px;
@@ -839,7 +843,7 @@ section.catalog article .open_about {
 section.catalog article .open_gallary span:hover,
 section.catalog article .open_price:hover,
 section.catalog article .open_about:hover {
-  color: red;
+  color: #d7d7d7;
 }
 section.catalog article .open_gallary,
 section.catalog article .open_price {
@@ -852,7 +856,7 @@ section.catalog article .text-center {
   padding-bottom: 63px;
 }
 section.catalog article .text-center .open_about {
-  color: #6e6e6e;
+  color: #d7d7d7;
 }
 section.catalog article .text-center .open_about:hover {
   color: #f97c50;
@@ -868,7 +872,7 @@ section.catalog article .text-center .open_about:hover.collapsed::after {
 section.catalog article .text-center .open_about:after {
   content: "";
   border: 6px solid transparent;
-  border-bottom: 6px solid #6e6e6e;
+  border-bottom: 6px solid #d7d7d7;
   position: absolute;
   margin-top: 6px;
   margin-left: 6px;
@@ -876,7 +880,7 @@ section.catalog article .text-center .open_about:after {
 section.catalog article .text-center .open_about.collapsed:after {
   content: "";
   border: 6px solid transparent;
-  border-left: 6px solid #6e6e6e;
+  border-left: 6px solid #d7d7d7;
   position: absolute;
   margin-top: 6px;
   margin-left: 6px;
@@ -1009,7 +1013,7 @@ section.diploms img {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  box-shadow: 0px 7px 20px -5px #000000;
+  box-shadow: 0px 7px 20px -5px #cccccc;
 }
 /*****************************
 			Contacts
@@ -1378,7 +1382,7 @@ section.modal_window .modal-dialog .modal-content .jaw {
     padding-right: 100px;
   }
   section.catalog article ul {
-    padding-bottom: 76px;
+    padding-bottom: 50px;
   }
   section.catalog article .chose_manufacture {
     padding-top: 48px;
