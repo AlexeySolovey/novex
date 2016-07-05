@@ -1,4 +1,4 @@
-a,
+﻿a,
 h1,
 h2,
 i,
@@ -636,6 +636,13 @@ section.advantage .item-advant .figure .logistic {
 /*****************************
 			catalog
 *****************************/
+.good {
+  width: 44%;
+}
+.materialu {
+  display: inline-block;
+  width: 60%;
+}
 section.catalog {
   padding-bottom: 100px;
   background: #f4f4f4;
@@ -647,7 +654,7 @@ section.catalog .catalog_anchor {
 section.catalog article {
   padding-top: 53px;
   position: relative;
-  box-shadow: inset 0px 9px 29px -16px #777777;
+  box-shadow: inset 0px 9px 29px -16px #777;
   overflow-x: hidden;
   /*test about goods*/
 }
@@ -658,6 +665,7 @@ section.catalog article:nth-child(odd) {
 section.catalog article:nth-child(odd) img.good {
   float: right;
   margin-right: -45px;
+  margin-bottom: 35px;
 }
 section.catalog article:nth-child(odd) img.klink {
   margin-right: -20px;
@@ -679,6 +687,7 @@ section.catalog article:nth-child(even) {
 section.catalog article:nth-child(even) img.good {
   float: left;
   margin-left: -30px;
+  margin-bottom: 35px;
 }
 section.catalog article:nth-child(even) img.klink {
   margin-left: -65px;
@@ -691,6 +700,13 @@ section.catalog article:nth-child(even) img.bruschatka {
 }
 section.catalog article:nth-child(even) img.materialu {
   margin-left: -45px;
+  display: inline-block;
+  width: 44%;
+  margin-bottom: 20px;
+}
+section.catalog article:nth-child(even) h3.materialu {
+  display: inline-block;
+  width: 60%;
 }
 section.catalog article:nth-child(even) .jaw {
   background: #fff;
@@ -1013,7 +1029,7 @@ section.diploms img {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  box-shadow: 0px 7px 20px -5px #cccccc;
+  box-shadow: 0px 7px 20px -5px #ccc;
 }
 /*****************************
 			Contacts
@@ -1157,11 +1173,24 @@ section.modal_window .modal-dialog .modal-content .jaw {
   width: 140px;
   border-radius: 30px;
   bottom: -13px;
-  box-shadow: 0px 15px 20px -7px #333333;
+  box-shadow: 0px 15px 20px -7px #333;
 }
 /*****************************
 			media
 *****************************/
+@media screen and (max-width: 1100px) {
+  .catalog h3 {
+    font-size: 34px !important;
+  }
+  .catalog button {
+    margin-right: 20% !important;
+    margin-bottom: 20px !important;
+  }
+  section.catalog article .open_gallary,
+  section.catalog article .open_price {
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 767px) {
   section.navigation .navbar #responsive-menu ul li ul {
     display: none;
