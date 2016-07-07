@@ -150,7 +150,7 @@ header .contact_form .phones ul li i {
 }
 header .contact_form button {
   color: #fff;
-  padding: 27px 22px;
+  padding: 27px 18px;
   padding-bottom: 23px;
   font-size: 17.39px;
   font-family: OpenSans-Bold;
@@ -702,7 +702,7 @@ section.catalog article:nth-child(even) img.materialu {
   margin-left: -45px;
   display: inline-block;
   width: 44%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 section.catalog article:nth-child(even) h3.materialu {
   display: inline-block;
@@ -867,7 +867,13 @@ section.catalog article .open_price {
   padding-right: 12px;
   display: inline-block;
 }
+section.catalog article .open_gallary {
+  display: none !important;
+}
 section.catalog article .text-center {
+  margin-left: auto;
+  display: table;
+  margin-right: auto;
   padding: 30px 0;
   padding-bottom: 63px;
 }
