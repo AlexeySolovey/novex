@@ -646,7 +646,7 @@ section.catalog{
 			background: #fff;
 			img{
                 
-				&.good{float: right; margin-right: -45px; margin-bottom:35px;}
+				&.good{float: right; margin-right: -45px; margin-bottom:щpx;}
 				&.klink{margin-right: -20px; padding-right: 20px;}
 				&.lichevoy{margin-right: -45px;}
 				&.ryadovoy{margin-right: -45px;}
@@ -659,7 +659,7 @@ section.catalog{
 		&:nth-child(even){
 			background:#f4f4f4;
 			img{
-				&.good{float: left; margin-left: -30px; margin-bottom:35px;}
+				&.good{float: left; margin-left: -30px; margin-bottom:0px;}
 				&.klink{margin-left: -65px; padding-right: 17px;}
 				&.bruschatka{margin-left: -30px; padding-right: 20px; margin-top: 20px;}
 				&.materialu{margin-left: -45px; display: inline-block; width:44%; margin-bottom: 0px;}
@@ -686,6 +686,13 @@ section.catalog{
 			position: absolute;
 			margin-top: -70px;
 		}
+        .tab-content{
+            .tab-pane{
+                p{
+                    display:inline-block;
+                }
+            }
+        }
 		ul{
 			margin-bottom: 15px;
 			padding-left: 0;
@@ -853,6 +860,9 @@ section.catalog{
 				}
 			}
 		}
+        #main_about_materialu_tehno > div.text-center{
+            margin-top: 53px;
+        }
 		/*test about goods*/
 		.main_about_klink_kerameya{padding-top: 76px;}
 	}
