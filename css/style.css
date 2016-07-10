@@ -1,4 +1,4 @@
-﻿a,
+a,
 h1,
 h2,
 i,
@@ -127,7 +127,7 @@ header img {
 }
 header .contact_form .phones {
   background: #f4f4f4;
-  width: 362px;
+  width: 371px;
   margin-left: -25px;
   border-radius: 5px;
 }
@@ -150,7 +150,8 @@ header .contact_form .phones ul li i {
 }
 header .contact_form button {
   color: #fff;
-  padding: 27px 22px;
+  min-width: 227px;
+  padding: 27px 18px;
   padding-bottom: 23px;
   font-size: 17.39px;
   font-family: OpenSans-Bold;
@@ -654,7 +655,7 @@ section.catalog .catalog_anchor {
 section.catalog article {
   padding-top: 53px;
   position: relative;
-  box-shadow: inset 0px 9px 29px -16px #777;
+  box-shadow: inset 0px 9px 29px -16px #777777;
   overflow-x: hidden;
   /*test about goods*/
 }
@@ -665,7 +666,7 @@ section.catalog article:nth-child(odd) {
 section.catalog article:nth-child(odd) img.good {
   float: right;
   margin-right: -45px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 section.catalog article:nth-child(odd) img.klink {
   margin-right: -20px;
@@ -687,7 +688,7 @@ section.catalog article:nth-child(even) {
 section.catalog article:nth-child(even) img.good {
   float: left;
   margin-left: -30px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 section.catalog article:nth-child(even) img.klink {
   margin-left: -65px;
@@ -702,7 +703,7 @@ section.catalog article:nth-child(even) img.materialu {
   margin-left: -45px;
   display: inline-block;
   width: 44%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 section.catalog article:nth-child(even) h3.materialu {
   display: inline-block;
@@ -728,6 +729,9 @@ section.catalog article a.koagylyant {
 section.catalog article a.goods_anchor {
   position: absolute;
   margin-top: -70px;
+}
+section.catalog article .tab-content .tab-pane p {
+  display: inline-block;
 }
 section.catalog article ul {
   margin-bottom: 15px;
@@ -867,7 +871,13 @@ section.catalog article .open_price {
   padding-right: 12px;
   display: inline-block;
 }
+section.catalog article .open_gallary {
+  display: none !important;
+}
 section.catalog article .text-center {
+  margin-left: auto;
+  display: table;
+  margin-right: auto;
   padding: 30px 0;
   padding-bottom: 63px;
 }
@@ -900,6 +910,9 @@ section.catalog article .text-center .open_about.collapsed:after {
   position: absolute;
   margin-top: 6px;
   margin-left: 6px;
+}
+section.catalog article #main_about_materialu_tehno > div.text-center {
+  margin-top: 53px;
 }
 section.catalog article .main_about_klink_kerameya {
   padding-top: 76px;
@@ -1048,7 +1061,7 @@ section.diploms img {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  box-shadow: 0px 7px 20px -5px #ccc;
+  box-shadow: 0px 7px 20px -5px #cccccc;
 }
 /*****************************
 			Contacts
@@ -1192,7 +1205,7 @@ section.modal_window .modal-dialog .modal-content .jaw {
   width: 140px;
   border-radius: 30px;
   bottom: -13px;
-  box-shadow: 0px 15px 20px -7px #333;
+  box-shadow: 0px 15px 20px -7px #333333;
 }
 /*****************************
 			media

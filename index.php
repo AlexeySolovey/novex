@@ -17,8 +17,8 @@
 				<div class="col-md-12">
 					<div class="language">
 						<ul>
-							<li class="active"><a href="#">Ua</a></li>
-							<li><a href="#">Ru</a></li>
+							<li><a href="indexUkr.php">Ua</a></li>
+							<li  class="active"><a href="index.php">Ru</a></li>
 						</ul>
 					</div>
 				</div>
@@ -705,10 +705,7 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_ruberoid_tehno">
-									<p>Основное описание КЕРАМИЯ Кровельные материалы: кровельный рулонный наплавляемый полимерно-битумный 
-                                    материал на негниющей полиэфирной (полиэстер) или стеклооснове (стеклохолст) 
-                                    ТМ СПОЛИ  производства ООО «Завод ТехноНИКОЛЬ» г. Днепродзержинск и 
-                                    «Славутский рубероидный завод» г. Славута следующего оссортимента. </p>
+									<p>Кровельные материалы: кровельный рулонный наплавляемый полимерно-битумный материал на негниющей полиэфирной (полиэстер) или стеклооснове (стеклохолст) ТМ СПОЛИ  производства ООО «Завод ТехноНИКОЛЬ» г. Днепродзержинск и «Славутский рубероидный завод» г. Славута следующего оссортимента. </p>
 									<div class="collapse" id="other_about_ruberoid_tehno">
                                         <table class="table table-striped">
                                             <thead>
@@ -1137,7 +1134,7 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_materialu_tehno">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
+									<p>Всегда в наличии гидроизоляционные материалы от производителя "Технониколь". Продукт высокого качества, более детально про область применения и технические характеристики смотрите в нижеприведенной таблице.</p>
 									<div class="collapse" id="other_about_materialu_tehno">
                                         <table class="table table-bordered">
                                             <thead>
@@ -1588,6 +1585,253 @@
 
                                             </tbody>
                                         </table>
+
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <td class="materials-type" colspan="6">AquaMast</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        Марка материала
+                                                    </th>
+                                                    <th>
+                                                        Ед. изм.
+                                                    </th>
+                                                    <th>
+                                                        Упаковка
+                                                    </th>
+                                                    <th>
+                                                        Код товара
+                                                        ЕКН
+                                                    </th>
+                                                    <th>
+                                                        Стоимость
+                                                        за ед.изм.
+                                                        UAH
+                                                    </th>
+                                                    <th>
+                                                        Область применения
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                <tr>
+                                                    <td rowspan="3">
+                                                        AquaMast
+                                                        праймер
+                                                    </td>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        16 кг
+                                                    </td>
+                                                    <td>
+                                                        398065
+                                                    </td>
+                                                    <td>
+                                                        628,474
+                                                    </td>
+                                                    <td rowspan="3">
+                                                        Предназначен для подготовки основания перед укладкой гидроизоляции.
+                                                        Прекрасно сочетается с мастиками на основе битума  и рулонными
+                                                        битумными наплавляемыми материалами.
+                                                        Средний расход 0,3 кг/м².
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        8 кг
+                                                    </td>
+                                                    <td>
+                                                        398064
+                                                    </td>
+                                                    <td>
+                                                        420,959
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        2,4 кг
+                                                    </td>
+                                                    <td>
+                                                        421729
+                                                    </td>
+                                                    <td>
+                                                        118,58
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td rowspan="3">
+                                                        AquaMast
+                                                        для кровли
+                                                    </td>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        18 кг
+                                                    </td>
+                                                    <td>
+                                                        398056
+                                                    </td>
+                                                    <td>
+                                                        646,261
+                                                    </td>
+                                                    <td rowspan="3">
+                                                        Предназначена устройства и ремонта кровель.
+                                                        После высыхания образует прочное гидроизоляционное покрытие,
+                                                        с широким диапазоном температур эксплуатации.
+                                                        Средний расход 3,3-4,3 кг/м²
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        10 кг
+                                                    </td>
+                                                    <td>
+                                                        398055
+                                                    </td>
+                                                    <td>
+                                                        450,604
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        3 кг
+                                                    </td>
+                                                    <td>
+                                                        421721
+                                                    </td>
+                                                    <td>
+                                                        126,2877
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td rowspan="4">
+                                                        AquaMast
+                                                        ремонт и приклейка
+                                                    </td>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        18 кг
+                                                    </td>
+                                                    <td>
+                                                        398061
+                                                    </td>
+                                                    <td>
+                                                        643,2426
+                                                    </td>
+                                                    <td rowspan="4">
+                                                        Надежно приклеивает, а также устраняет мелкие
+                                                        дефекты на кровле, без проведения капитального ремонта.
+                                                        Используется для приклеивания битумной
+                                                        черепицы и рулонных материалов.
+                                                        Средний расход 0,8-1,8 кг/м²
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        10 кг
+                                                    </td>
+                                                    <td>
+                                                        398060
+                                                    </td>
+                                                    <td>
+                                                        433,6794
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        3 кг
+                                                    </td>
+                                                    <td>
+                                                        421724
+                                                    </td>
+                                                    <td>
+                                                        116,424
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        0,3 кг
+                                                        картридж
+                                                    </td>
+                                                    <td>
+                                                        398063
+                                                    </td>
+                                                    <td>
+                                                        31,43448
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td rowspan="2">
+                                                        AquaMast
+                                                        антикоррозионная
+                                                    </td>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        8 кг
+                                                    </td>
+                                                    <td>
+                                                        398040
+                                                    </td>
+                                                    <td>
+                                                        625,779
+                                                    </td>
+                                                    <td rowspan="4">
+                                                        Защищает от коррозии и продлевает срок
+                                                        службы металлических поверхностей, в том
+                                                        числе заглубляемых в землю труб и баков.
+                                                        Средний расход: 0,4 кг/м²
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        шт
+                                                    </td>
+                                                    <td>
+                                                        2,4 кг
+                                                    </td>
+                                                    <td>
+                                                        421716
+                                                    </td>
+                                                    <td>
+                                                        190,06218
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_materialu_tehno" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -1913,7 +2157,7 @@
 		$name=$_POST['name'];
 		$phone=$_POST['phone'];
 		$topic=$_POST['topic'];
-		$to_address="Soloveyalexey3@gmail.com";
+		$to_address="markkushnerenko@gmail.com";
 		$subject="Отзыв с сайта Novex";
 		$mail_content="От: ".$name."\n\n"."Телефон: ".$phone."\n\n"."Хочет: ".$topic;
 		if(isset($_POST['button'])){
