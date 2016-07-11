@@ -541,7 +541,7 @@
 						<!-- end gallery block -->
 						<p class="chose_manufacture">Производитель:</p>
 						<div class="tabs">
-							<ul>
+							<ul id="tab-block">
 								<li class="active">
 									<a href="#main_about_ryadovoy_dnepr" class="list" data-toggle="tab">Днепропетровская обл.</a>
 								</li>

@@ -553,7 +553,7 @@
                         <!-- end gallery block -->
                         <p class="chose_manufacture">Виробник:</p>
                         <div class="tabs">
-                            <ul>
+                            <ul class="tab-block">
                                 <li class="active">
                                     <a href="#main_about_ryadovoy_dnepr" class="list" data-toggle="tab">Дніпропетровська обл.</a>
                                 </li>
