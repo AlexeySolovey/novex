@@ -799,6 +799,7 @@ section.catalog article ul li a.cherkov {
   background-position: 0 -336px;
   width: 204px;
   height: 65px;
+  margin-bottom: 10px;
 }
 section.catalog article ul li a.cherkov:hover {
   background-position: -224px -342px;
@@ -910,9 +911,6 @@ section.catalog article .text-center .open_about.collapsed:after {
   position: absolute;
   margin-top: 6px;
   margin-left: 6px;
-}
-section.catalog article #main_about_materialu_tehno > div.text-center {
-  margin-top: 53px;
 }
 section.catalog article .main_about_klink_kerameya {
   padding-top: 76px;
