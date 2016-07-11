@@ -273,6 +273,9 @@ section.navigation{
 						position: relative;
 						&:hover .jaw div{
 							-webkit-transform: translateY(8px);
+							-moz-transform: translateY(8px);
+							-o-transform: translateY(8px);
+							transform: translateY(8px);
 						}
 						a{
 							text-decoration: none;
@@ -289,10 +292,10 @@ section.navigation{
 								margin-top: -4px;
 								height: 20px;
 								border-radius: 20px;
-								-webkit-transition: -webkit-transform 800ms;
-								-moz-transition: -webkit-transform 800ms;
-								-o-transition: -webkit-transform 800ms;
-								transition: -webkit-transform 800ms;
+								-webkit-transition: transform 800ms;
+								-moz-transition: transform 800ms;
+								-o-transition: transform 800ms;
+								transition: transform 800ms;
 							}
 						}
 						ul.dropdown-menu{
@@ -625,7 +628,6 @@ section.advantage{
 			catalog
 *****************************/
 .good{
-    width:44%;
 	height: 470px;
 	margin-top: -45px;
 }
@@ -1142,7 +1144,7 @@ section.modal_window{
 				font-family: @OS-regular;
 				font-size: 24px;
 				padding-left: 24px;
-				box-shadow: inset 0px 0px 7px 0 #DCDCDC;
+				box-shadow: inset 0px 0px 7px 0 rgba(132, 127, 127, 0.7);
 				border: none;
 				outline: none;
 				&:-webkit-autofill{
