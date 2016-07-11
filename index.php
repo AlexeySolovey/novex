@@ -370,9 +370,27 @@
 							</ul>
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_klink_cherkov"> 
+									<p>Клинкерный кирпич ТМ Білоцерківські будматеріали производится с 2008 г и имеет пустотность 30%, марку прочности на сжатие 300 кгс/см2, водопоглощение 6% и морозостойкость более 150 циклов.<br/>
+									Основная цветовая гамма -  красный Рубин, коричневый, желтый Янтарь,  кремовый  Сапфир, белый Кристалл, также популярная гамма Флеш, имеющий отте нок от красно-коричневого до зеленовато-серого.<br/>
+									Размеры кирпича- стандартный 250х120х65 мм</p>
+									<div class="collapse" id="other_about_klink_cherkov">
+										<p>Разновидности: одинарный стандартный и фасонный, который применяется для возведения колонн, пилястр, обрамления окон и воплощения различных архитектурных решений.<br/>
+										Применяется при высококачественной облицовке фасадов,  внутреннего декора, облицовки барбекю и каминов.<br/>
+										Основная отличительная черта клинкерного кирпича ТМ Білоцерківські будматеріали – это характерная фирменная фаска по граням лицевой поверхности, которая делает кладку объемной, а шов особенно аккуратным и четким.<br/>
+										Клинкерный кирпич ТМ Білоцерківські будматеріали обязателен в применении при облицовке заборов и подпорных стенок, так как высокая марочность, морозостойкость и низкое водопоглощение являются гарантией качества построек, которые максимально часто подвергаются воздействию перепадов температур зимой. Применение этого кирпича препятствуют появлению высолов.<br/>
+										Весь кирпич упакован в пленку на поддонах.<br/>
+										Количество на поддоне: 250х120х65- 416 шт;  фасонный -312шт;<br/>
+										Вес 1 п – 0,9 т; 1,15 т.<br/>
+										Вся продукция ТМ Білоцерківські будматеріали сертифицирована. </p>
+									</div>
+									<div class="text-center">
+										<a href="#other_about_klink_cherkov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="main_about_klink_kerameya">
 									<p>Клинкерный кирпич ТМ Клинкерам ООО Керамейя производится в Украине с 2008 г  имеет пустотность 0%, 36% и 48%, марку прочности на сжатие 300-350 кгс/см2, водопоглощение 5% и морозостойкость более 150 циклов.<br/>
 									Основная цветовая гамма-  красный Рубин, коричневый Оникс, желтый Янтарь,  кремовый  Жемчуг, также популярная гамма Магма Топаз желто-коричневый, Диабаз серо-зелено-коричневый, Гранит  красно-коричневый.</p>
-									<div class="collapse" id="other_about_klink_cherkov">
+									<div class="collapse" id="other_about_klink_kerameya">
 										<p>Размеры кирпича- стандартный Пр1 250х120х65 мм; Ф10 250х90х65 мм; Пр1/2 250х60х65 мм.<br/>
 										Разновидности-фасонный и одинарный.<br/> 
 										Основаная отличительная черта клинкерного кирпича ТМ Клинкерам – производство декорированного кирпича: с рельефной поверхностью Рустика и рельефной поверхностью  декорированой разноцветной каменной крошкой Рустика Торкрет.<br/>
@@ -383,15 +401,6 @@
 										Количество: Пр1 250х120х65- 453 шт; Ф10 250х90х65 – 604 шт;  Пр1/2 250х60х65 – 906 шт; фасонные изделия- 453шт.<br/>
 										Вес 1 п – 1,35-1,5 т.<br/>
 										Вся продукция ТМ Клинкерам сертифицирована.</p>
-									</div>
-									<div class="text-center">
-										<a href="#other_about_klink_cherkov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
-									</div>
-								</div>
-								<div class="tab-pane fade" id="main_about_klink_kerameya">
-									<p>Основное описание КЕРАМИЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
-									<div class="collapse" id="other_about_klink_kerameya">
-										<p>КЕРАМИЯ другое описание Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_klink_kerameya" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -2023,18 +2032,18 @@
 					<h2>Сертификаты</h2>
 				</div>
 				<div class=" col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-					<a class="serteficates" rel="gallery" href="images/certeficates1.jpg" title="это первый сертификат">
-						<img src="images/certeficates1.jpg" alt="certeficates1">
+					<a class="serteficates" rel="gallery" href="images/certeficates1.jpg" title="">
+						<img src="images/certeficatesBelCher.jpg" alt="certeficates1">
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-4">
 					<a class="serteficates" rel="gallery" href="images/certeficates2.jpg" title="Сертификат2">
-						<img src="images/certeficates2.jpg" class="top" alt="certeficates2">
+						<img src="images/certeficatesCeramiya.jpg" class="top" alt="certeficates2">
 					</a>
 				</div>
 				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-					<a class="serteficates" rel="gallery" href="images/certeficates3.jpg" title="третий сертификат">
-						<img src="images/certeficates3.jpg" alt="certeficates3">
+					<a class="serteficates" rel="gallery" href="images/certeficates3.jpg" title="">
+						<img src="images/certeficatesTech.jpg" alt="certeficates3">
 					</a>
 				</div>
 			</div>

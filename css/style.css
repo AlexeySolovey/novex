@@ -1323,6 +1323,9 @@ section.modal_window .modal-dialog .modal-content .jaw {
   section.goods .wrap .bruschatka {
     padding-top: 16px;
   }
+  section.goods .wrap .bruschatka p {
+    margin-top: -16px;
+  }
   section.goods .wrap .good-item {
     width: 175px;
     display: inline-block;

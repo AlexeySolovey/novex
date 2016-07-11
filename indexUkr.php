@@ -369,14 +369,29 @@
                                 </li>
                             </ul>
                             <div class="tab-content">
-                                <div class="tab-pane active fade in" id="main_about_klink_cherkov">
-                                    <p>
-                                        Клінкерна цегла ТМ Клинкерам ТОВ Керамейя виготовляється в Україні з 2008 р має порожнистість 0%, 36% і 48%, марку міцності на стиснення 300-350 кгс / см2, водопоглинання 5% і морозостійкість більше 150 циклів.<br />
-                                        Основна кольорова гама - червоний Рубін, коричневий Онікс, жовтий Янтар, кремова Перлина, також популярна гамма Магма Топаз жовто-коричневий, Діабаз сіро-зелено-коричневий, Граніт червоно-коричневий.
-                                    </p>
+                                <div class="tab-pane active fade in" id="main_about_klink_cherkov"> 
+                                    <p>Клинкерный кирпич ТМ Білоцерківські будматеріали производится с 2008 г и имеет пустотность 30%, марку прочности на сжатие 300 кгс/см2, водопоглощение 6% и морозостойкость более 150 циклов.<br/>
+                                    Основная цветовая гамма -  красный Рубин, коричневый, желтый Янтарь,  кремовый  Сапфир, белый Кристалл, также популярная гамма Флеш, имеющий отте нок от красно-коричневого до зеленовато-серого.<br/>
+                                    Размеры кирпича- стандартный 250х120х65 мм</p>
                                     <div class="collapse" id="other_about_klink_cherkov">
-                                        <p>
-                                            Розміри цегли-стандартний Пр1 250х120х65 мм; Ф 10 250х90х65 мм; Пр1 / 2 250х60х65 мм.<br />
+                                        <p>Разновидности: одинарный стандартный и фасонный, который применяется для возведения колонн, пилястр, обрамления окон и воплощения различных архитектурных решений.<br/>
+                                        Применяется при высококачественной облицовке фасадов,  внутреннего декора, облицовки барбекю и каминов.<br/>
+                                        Основная отличительная черта клинкерного кирпича ТМ Білоцерківські будматеріали – это характерная фирменная фаска по граням лицевой поверхности, которая делает кладку объемной, а шов особенно аккуратным и четким.<br/>
+                                        Клинкерный кирпич ТМ Білоцерківські будматеріали обязателен в применении при облицовке заборов и подпорных стенок, так как высокая марочность, морозостойкость и низкое водопоглощение являются гарантией качества построек, которые максимально часто подвергаются воздействию перепадов температур зимой. Применение этого кирпича препятствуют появлению высолов.<br/>
+                                        Весь кирпич упакован в пленку на поддонах.<br/>
+                                        Количество на поддоне: 250х120х65- 416 шт;  фасонный -312шт;<br/>
+                                        Вес 1 п – 0,9 т; 1,15 т.<br/>
+                                        Вся продукция ТМ Білоцерківські будматеріали сертифицирована. </p>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="#other_about_klink_cherkov" data-toggle="collapse" class="open_about collapsed">Детальніше про продукт</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="main_about_klink_kerameya">
+                                    <p>Клінкерна цегла ТМ Клинкерам ТОВ Керамейя виготовляється в Україні з 2008 р має порожнистість 0%, 36% і 48%, марку міцності на стиснення 300-350 кгс / см2, водопоглинання 5% і морозостійкість більше 150 циклів.<br />
+                                        Основна кольорова гама - червоний Рубін, коричневий Онікс, жовтий Янтар, кремова Перлина, також популярна гамма Магма Топаз жовто-коричневий, Діабаз сіро-зелено-коричневий, Граніт червоно-коричневий. </p>
+                                    <div class="collapse" id="other_about_klink_kerameya">
+                                        <p>Розміри цегли-стандартний Пр1 250х120х65 мм; Ф 10 250х90х65 мм; Пр1 / 2 250х60х65 мм.<br />
                                             Різновиди-фасонний і одинарний.<br />
                                             Основана відмінна риса клінкерної цегли ТМ Клинкерам - виробництво декорованої цегли: з рельєфною поверхнею Рустика і рельєфною поверхнею декорування різнобарвною кам'яною крихтою Рустика Торкрет.<br />
                                             Застосовується при високоякісної облицюванні фасадів, внутрішнього декору, облицювання барбекю, камінів.<br />
@@ -385,17 +400,7 @@
                                             Вся цегла упакована в плівку на піддонах. <br />
                                             Кількість: Пр1 250х120х65- 453 шт; Ф 10 250х90х65 - 604 шт; Пр1 / 2 250х60х65 - 906 шт; фасонні вироби-453шт.<br />
                                             Вага 1 п – 1,35-1,5 т.<br />
-                                            Вся продукція ТМ Клинкерам сертифікована.
-                                        </p>
-                                    </div>
-                                    <div class="text-center">
-                                        <a href="#other_about_klink_cherkov" data-toggle="collapse" class="open_about collapsed">Детальніше про продукт</a>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="main_about_klink_kerameya">
-                                    <p>Основний опис КЕРАМІЯ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eius quisquam excepturi eaque a soluta laborum delectus in culpa! Necessitatibus ea obcaecati ipsa fuga autem perferendis voluptas nesciunt quasi excepturi, laudantium sed minus quisquam non cupiditate fugit aspernatur veritatis assumenda recusandae voluptate. Debitis dolorem odit pariatur soluta a natus nam iste quo, magni temporibus dolorum maiores dignissimos explicabo reprehenderit quidem eos, et aut, sit eaque facilis. Ipsam repellat deserunt assumenda maxime! Distinctio pariatur accusantium, asperiores </p>
-                                    <div class="collapse" id="other_about_klink_kerameya">
-                                        <p>КЕРАМІЯ інший опис Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore doloremque, debitis totam maxime odit ipsum perspiciatis. Aspernatur perspiciatis sapiente, quia! Aspernatur corrupti, dolores vel assumenda possimus eveniet unde consectetur itaque, omnis cum quidem molestiae eos excepturi. Dignissimos sint quaerat, commodi, reprehenderit pariatur ipsum placeat voluptates. Delectus necessitatibus culpa maiores placeat optio! Nobis quisquam hic repellat sequi perspiciatis suscipit quam ratione.</p>
+                                            Вся продукція ТМ Клинкерам сертифікована.</p>
                                     </div>
                                     <div class="text-center">
                                         <a href="#other_about_klink_kerameya" data-toggle="collapse" class="open_about collapsed">Детальніше про продукт</a>
@@ -2052,20 +2057,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2>Сертифікати</h2>
+                    <h2>Сертификаты</h2>
                 </div>
                 <div class=" col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficates1.jpg" title="це перший сертифікат">
+                    <a class="serteficates" rel="gallery" href="images/certeficatesBelCher.jpg" title="">
                         <img src="images/certeficates1.jpg" alt="certeficates1">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficates2.jpg" title="Сертифікат2">
+                    <a class="serteficates" rel="gallery" href="images/certeficatesCeramiya.jpg" title="Сертификат2">
                         <img src="images/certeficates2.jpg" class="top" alt="certeficates2">
                     </a>
                 </div>
                 <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficates3.jpg" title="третий сертифікат">
+                    <a class="serteficates" rel="gallery" href="images/certeficatesTech.jpg" title="">
                         <img src="images/certeficates3.jpg" alt="certeficates3">
                     </a>
                 </div>
