@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Новекс</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords" content="керамейя, кирпич, клинкер, клинкерный" />
+	<meta name="title" content="Купить кирпич клинкерный - 'Керамейя' (Кривой Рог)" />
+	<meta name="author" content="" />
+	<meta name="description" content="В наше время, купить клинкерный кирпич Керамейя в Кривом Роге не составляет труда. ТМ Новекс предлагает свои услуги поставки кирпича, брусчатки. Захотели купить клинкер - 050321-67-77." />
+	<meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+	<title>Купить кирпич клинкерный - &quot;Керамейя&quot; (Кривой Рог)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
