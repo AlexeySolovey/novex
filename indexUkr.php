@@ -107,7 +107,7 @@
                                 <li><a href="#klink_good">Клінкерна цегла</a></li>
                                 <li><a href="#lichevoy_good">Лицьова цегла</a></li>
                                 <li><a href="#bruschatka_good">Клінкерна бруківка</a></li>
-                                <li><a href="#ryadovoy_good">Цегла керамічна рядова м100</a></li>
+                                <li><a href="#ryadovoy_good">Цегла керамічна рядова м100, M125</a></li>
                                 <li><a href="#keramobloki_good">Поризовані керамічні блоки</a></li>
                                 <li><a href="#ruberoid_good">Покрівельні матеріали (руберойд)</a></li>
                                 <li><a href="#materialu_good">Гідроізоляційні матеріали</a></li>
@@ -234,7 +234,7 @@
                                 <img src="images/goods_ryadovoy.png" alt="Цегла керамічна рядова м 100">
                             </a>
                             <a href="#ryadovoy_good">
-                                <p>Цегла керамічна рядова м100</p>
+                                <p>Цегла керамічна рядова м100, м125</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
@@ -342,7 +342,7 @@
                         <img class="good klink" src="images/goods_klink.png" alt="Клінкерна цегла">
                         <h3>Клінкерна цегла</h3>
                         <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
-                        <a href="price/price_by_klink.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_klink.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -369,7 +369,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content">
-                                <div class="tab-pane active fade in" id="main_about_klink_cherkov"> 
+                                <div class="tab-pane active fade in" id="main_about_klink_cherkov">
                                     <p>Клинкерный кирпич ТМ Білоцерківські будматеріали производится с 2008 г и имеет пустотность 30%, марку прочности на сжатие 300 кгс/см2, водопоглощение 6% и морозостойкость более 150 циклов.<br/>
                                     Основная цветовая гамма -  красный Рубин, коричневый, желтый Янтарь,  кремовый  Сапфир, белый Кристалл, также популярная гамма Флеш, имеющий отте нок от красно-коричневого до зеленовато-серого.<br/>
                                     Размеры кирпича- стандартный 250х120х65 мм</p>
@@ -421,7 +421,7 @@
                         <img class="good lichevoy" src="images/goods_lichevoy.png" alt="Лицьова цегла">
                         <h3>Лицьова <br /> цегла</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
-                        <a href="price/price_by_lichevoy.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_lichevoy.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -480,7 +480,7 @@
                         <img class="good bruschatka" src="images/goods_bruschatka.png" alt="Клінкерна бруківка">
                         <h3>Клінкерна бруківка</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
-                        <a href="price/price_by_bruschatka.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_bruschatka.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -535,10 +535,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good lichevoy" src="images/goods_ryadovoy.png" alt="Цегла керамічна рядова м100">
+                        <img class="good lichevoy" src="images/goods_ryadovoy.png" alt="Цегла керамічна рядова м100, м125">
                         <h3>Цегла керамічна рядова м100</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
-                        <a href="price/price_by_ryadovoy.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_ryadovoy.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -556,72 +556,90 @@
                             </a>
                         </div>
                         <!-- end gallery block -->
-                        <p class="chose_manufacture">Виробник:</p>
+                        <p class="chose_manufacture">Производитель:</p>
                         <div class="tabs">
-                            <ul class="tab-block">
+                            <ul id="tab-block">
                                 <li class="active">
-                                    <a href="#main_about_ryadovoy_dnepr" class="list" data-toggle="tab">Дніпропетровська обл.</a>
+                                    <a href="#main_about_ryadovoy_dnepr" class="list" data-toggle="tab">Черкасская обл.</a>
                                 </li>
                                 <li>
-                                    <a href="#main_about_ryadovoy_kirov" class="list" data-toggle="tab">Кіровоградська обл.</a>
+                                    <a href="#main_about_ryadovoy_kirov" class="list" data-toggle="tab">Днепропетровская обл.</a>
                                 </li>
                                 <li>
-                                    <a href="#main_about_ryadovoy_cherkas" class="list" data-toggle="tab">Черкаська обл.</a>
+                                    <a href="#main_about_ryadovoy_cherkas" class="list" data-toggle="tab">Кировоградская обл.</a>
                                 </li>
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane active fade in" id="main_about_ryadovoy_dnepr">
-                                    <p>
-                                        Виробник: заводи Дніпропетровської, Кіровоградської та Черкаської обл ..
-                                        Цегла порожнистістю 13% напівсухого пресування М100, М75.
-                                        Упаковка: в плівці на піддонах.
-                                        Кількість в піддоні: 480 шт, вага 1п-1,4 т.<br />
-                                        Цегла порожнистістю 0% пластичного формування М100.
-                                    </p>
+                                    <p>Производитель: заводы Днепропетровской, Кировоградской и Черкасской обл..<br/>
+                                    Кирпич  пустотностью 13% полусухого прессования М100, М75.<br/>
+                                    Упаковка: в пленке на поддонах.<br/>
+                                    Количество в поддоне: 480 шт, вес 1п-1,4 т.<br/>
+                                    Кирпич пустотностью 0% пластического формования М100.</p>
                                     <div class="collapse" id="other_about_ryadovoy_dnepr">
-                                        <p>
-                                            Упаковка: на піддоні без плівки.<br />
-                                            Кількість в піддоні: 333 шт, вес 1п – 1,05 т.<br />
-                                            Якість всієї цегли підтверджено сертифікатами відповідності згідно ДСТУ Б В.2.7-61: 2008.
+                                        <p>Кирпич пустотелый М 125 <br>
+                                            (Пластического формования)<br>
+                                            Упаковка: на поддон (без пленки)<br>
+                                            Количество в поддоне: 400 шт., вес 1п. - 1,4т.
+                                        </p><br>
+                                        <p>Кирпич полнотелый, пуст. 0%, М 125 <br>
+                                            Упаковка: на поддон (без пленки)<br>
+                                            Количество в поддоне: 400 шт., вес 1п. - 1,2т
                                         </p>
+                                        <p>Кирпич пустотелый М 100 <br>
+                                            Упаковка: на поддоне без пленки.<br/>
+                                        Количество на поддоне: 333 шт, вес 1п – 1,05 т.<br/><br>
+                                        Качество всего кирпича подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#other_about_ryadovoy_dnepr" data-toggle="collapse" class="open_about collapsed">Детальніше про продукт</a>
+                                        <a href="#other_about_ryadovoy_dnepr" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="main_about_ryadovoy_kirov">
-                                    <p>
-                                        Виробник: заводи Дніпропетровської, Кіровоградської та Черкаської обл ..<br />
-                                        Цегла порожнистістю 13% напівсухого пресування М100, М75.<br />
-                                        Упаковка: в плівці на піддонах.<br />
-                                        Кількість в піддоні: 480 шт, вага 1п-1,4 т.<br />
-                                        Цегла порожнистістю 0% пластичного формування М100.
-                                    </p>
+                                    <p>Производитель: заводы Днепропетровской, Кировоградской и Черкасской обл..<br/>
+                                    Кирпич  пустотностью 13% полусухого прессования М100, М75.<br/>
+                                    Упаковка: в пленке на поддонах.<br/>
+                                    Количество в поддоне: 480 шт, вес 1п-1,4 т.<br/>
+                                    Кирпич пустотностью 0% пластического формования М100.</p>
                                     <div class="collapse" id="other_about_ryadovoy_kirov">
-                                        <p>
-                                            Упаковка: на піддоні без плівки.<br />
-                                            Кількість в піддоні: 333 шт, вес 1п – 1,05 т.<br />
-                                            Якість всієї цегли підтверджено сертифікатами відповідності згідно ДСТУ Б В.2.7-61: 2008.
+                                        <p>Кирпич пустотелый М 125 <br>
+                                            (Пластического формования)<br>
+                                            Упаковка: на поддон (без пленки)<br>
+                                            Количество в поддоне: 400 шт., вес 1п. - 1,4т.
+                                        </p><br>
+                                        <p>Кирпич полнотелый, пуст. 0%, М 125 <br>
+                                            Упаковка: на поддон (без пленки)<br>
+                                            Количество в поддоне: 400 шт., вес 1п. - 1,2т
                                         </p>
+                                        <p>Кирпич пустотелый М 100 <br>
+                                            Упаковка: на поддоне без пленки.<br/>
+                                            Количество на поддоне: 333 шт, вес 1п – 1,05 т.<br/><br>
+                                            Качество всего кирпича подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#other_about_ryadovoy_kirov" data-toggle="collapse" class="open_about collapsed">Детальніше про продукт</a>
+                                        <a href="#other_about_ryadovoy_kirov" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="main_about_ryadovoy_cherkas">
-                                    <p>
-                                        Виробник: заводи Дніпропетровської, Кіровоградської та Черкаської обл ..<br />
-                                        Цегла порожнистістю 13% напівсухого пресування М100, М75.<br />
-                                        Упаковка: в плівці на піддонах.<br />
-                                        Кількість в піддоні: 480 шт, вага 1п-1,4 т.<br />
-                                        Цегла порожнистістю 0% пластичного формування М100.
-                                    </p>
+                                    <p>Производитель: заводы Днепропетровской, Кировоградской и Черкасской обл..<br/>
+                                    Кирпич  пустотностью 13% полусухого прессования М100, М75.<br/>
+                                    Упаковка: в пленке на поддонах.<br/>
+                                    Количество в поддоне: 480 шт, вес 1п-1,4 т.<br/>
+                                    Кирпич пустотностью 0% пластического формования М100.</p>
                                     <div class="collapse" id="other_about_ryadovoy_cherkas">
-                                        <p>
-                                            Упаковка: на піддоні без плівки.<br />
-                                            Кількість в піддоні: 333 шт, вес 1п – 1,05 т.<br />
-                                            Якість всієї цегли підтверджено сертифікатами відповідності згідно ДСТУ Б В.2.7-61: 2008.
+                                        <p>Кирпич пустотелый М 125 <br>
+                                            (Пластического формования)<br>
+                                            Упаковка: на поддон (без пленки)<br>
+                                            Количество в поддоне: 400 шт., вес 1п. - 1,4т.
+                                        </p><br>
+                                        <p>Кирпич полнотелый, пуст. 0%, М 125 <br>
+                                            Упаковка: на поддон (без пленки)<br>
+                                            Количество в поддоне: 400 шт., вес 1п. - 1,2т
                                         </p>
+                                        <p>Кирпич пустотелый М 100 <br>
+                                            Упаковка: на поддоне без пленки.<br/>
+                                            Количество на поддоне: 333 шт, вес 1п – 1,05 т.<br/><br>
+                                            Качество всего кирпича подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.</p>
                                     </div>
                                     <div class="text-center">
                                         <a href="#other_about_ryadovoy_cherkas" data-toggle="collapse" class="open_about collapsed">Детальніше про продукт</a>
@@ -642,7 +660,7 @@
                         <img class="good keramobloki" src="images/goods_keramobloki.png" alt="Керамоблоки">
                         <h3>Поризовані керамічні блоки</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
-                        <a href="price/price_by_keramobloki.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_keramobloki.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -660,7 +678,7 @@
                             </a>
                         </div>
                         <!-- end gallery block -->
-                        <p class="chose_manufacture">Виробник::</p>
+                        <p class="chose_manufacture">Виробник:</p>
                         <div class="tabs">
                             <ul>
                                 <li class="active">
@@ -709,7 +727,7 @@
                         <img class="good ruberoid" src="images/goods_ruberoid.png" alt="Руберойд">
                         <h3>Покрівельні матеріали (руберойд)</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
-                        <a href="price/price_by_ruberoid.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_ruberoid.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -727,7 +745,7 @@
                             </a>
                         </div>
                         <!-- end gallery block -->
-                        <p class="chose_manufacture">Виробник::</p>
+                        <p class="chose_manufacture">Виробник:</p>
                         <div class="tabs">
                             <ul>
                                 <li class="active">
@@ -777,52 +795,10 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛІ Еліт
+                                                        СПОЛИ Элит
                                                     </td>
                                                     <td>
-                                                        ХПП
-                                                    </td>
-                                                    <td>
-                                                        10
-                                                    </td>
-                                                    <td>
-                                                        4,0
-                                                    </td>
-                                                    <td>
-                                                        40,0
-                                                    </td>
-                                                    <td>
-                                                        25
-                                                    </td>
-                                                    <td></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        СПОЛІ Еліт
-                                                    </td>
-                                                    <td>
-                                                        ХПП
-                                                    </td>
-                                                    <td>
-                                                        10
-                                                    </td>
-                                                    <td>
-                                                        4,0
-                                                    </td>
-                                                    <td>
-                                                        40,0
-                                                    </td>
-                                                    <td>
-                                                        25
-                                                    </td>
-                                                    <td>сланець сірий</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        СПОЛІ Еліт
-                                                    </td>
-                                                    <td>
-                                                        ЭПП
+                                                        ХПП 
                                                     </td>
                                                     <td>
                                                         10
@@ -840,10 +816,31 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛІ Еліт
+                                                        СПОЛИ Элит
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ХКП
+                                                    </td>
+                                                    <td>
+                                                        10
+                                                    </td>
+                                                    <td>
+                                                        4,5
+                                                    </td>
+                                                    <td>
+                                                        45,0
+                                                    </td>
+                                                    <td>
+                                                        23
+                                                    </td>
+                                                    <td>сланец серый</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        СПОЛИ Элит
+                                                    </td>
+                                                    <td>
+                                                        ЭПП 
                                                     </td>
                                                     <td>
                                                         10
@@ -857,39 +854,60 @@
                                                     <td>
                                                         25
                                                     </td>
-                                                    <td>сланець сірий</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        СПОЛИ Элит
+                                                    </td>
+                                                    <td>
+                                                        ЭКП
+                                                    </td>
+                                                    <td>
+                                                        10
+                                                    </td>
+                                                    <td>
+                                                        4,5
+                                                    </td>
+                                                    <td>
+                                                        45,0
+                                                    </td>
+                                                    <td>
+                                                        23
+                                                    </td>
+                                                    <td>сланец серый</td>
                                                 </tr>
 
                                                 <tr>
-                                                    <td class="materials-type" colspan="8">СПОЛІ ЕлітСПОЛІ Еліт</td>
+                                                    <td class="materials-type" colspan="8">Материалы класса "МОДЕРН СБС" (теплостойкость +95оС, гибкость на брусе R=20 мм  -15оС)</td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Модерн СБС
                                                     </td>
                                                     <td>
                                                         ХПП
                                                     </td>
                                                     <td>
-                                                        10
+                                                        15
                                                     </td>
                                                     <td>
-                                                        4,0
+                                                        3,0
                                                     </td>
                                                     <td>
-                                                        40,0
+                                                        45,0
                                                     </td>
                                                     <td>
-                                                        25
+                                                        23
                                                     </td>
                                                     <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Модерн СБС
                                                     </td>
                                                     <td>
-                                                        ХПП
+                                                        ХКП
                                                     </td>
                                                     <td>
                                                         10
@@ -907,31 +925,31 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Модерн СБС
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ЭПП 
                                                     </td>
                                                     <td>
-                                                        10
+                                                        15
                                                     </td>
                                                     <td>
-                                                        4,0
+                                                        3,0
                                                     </td>
                                                     <td>
-                                                        40,0
+                                                        45,0
                                                     </td>
                                                     <td>
-                                                        25
+                                                        23
                                                     </td>
                                                     <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Модерн СБС
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ЭКП
                                                     </td>
                                                     <td>
                                                         10
@@ -953,31 +971,31 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Оптима
                                                     </td>
                                                     <td>
                                                         ХПП
                                                     </td>
                                                     <td>
-                                                        10
+                                                        15
                                                     </td>
                                                     <td>
-                                                        4,0
+                                                        3,0
                                                     </td>
                                                     <td>
-                                                        40,0
+                                                        45,0
                                                     </td>
                                                     <td>
-                                                        25
+                                                        23
                                                     </td>
                                                     <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Оптима
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ХКП
                                                     </td>
                                                     <td>
                                                         10
@@ -995,31 +1013,31 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Оптима
                                                     </td>
                                                     <td>
-                                                        ХПП
+                                                        ЭПП
                                                     </td>
                                                     <td>
-                                                        10
+                                                        15
                                                     </td>
                                                     <td>
-                                                        4,0
+                                                        3,0
                                                     </td>
                                                     <td>
-                                                        40,0
+                                                        45,0
                                                     </td>
                                                     <td>
-                                                        25
+                                                        23
                                                     </td>
                                                     <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Оптима
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ЭКП
                                                     </td>
                                                     <td>
                                                         10
@@ -1041,31 +1059,31 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Стандарт
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ХПП
                                                     </td>
                                                     <td>
-                                                        10
+                                                        15
                                                     </td>
                                                     <td>
-                                                        4,0
+                                                        2,5
                                                     </td>
                                                     <td>
-                                                        40,0
+                                                        37,5
                                                     </td>
                                                     <td>
-                                                        25
+                                                        23
                                                     </td>
                                                     <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Стандарт
                                                     </td>
                                                     <td>
-                                                        ХПП
+                                                        ХКП
                                                     </td>
                                                     <td>
                                                         10
@@ -1083,31 +1101,31 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Стандарт
                                                     </td>
                                                     <td>
-                                                        ХПП
+                                                        ЭПП
                                                     </td>
                                                     <td>
-                                                        10
+                                                        15
                                                     </td>
                                                     <td>
-                                                        4,0
+                                                        2,5
                                                     </td>
                                                     <td>
-                                                        40,0
+                                                        37,5
                                                     </td>
                                                     <td>
-                                                        25
+                                                        23
                                                     </td>
                                                     <td></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        СПОЛИ Элит
+                                                        СПОЛИ Стандарт
                                                     </td>
                                                     <td>
-                                                        ЭПП
+                                                        ЭКП
                                                     </td>
                                                     <td>
                                                         10
@@ -1145,7 +1163,7 @@
                         <img class="good materialu" src="images/goods_materialu.png" alt="Гідроізоляційні матеріали">
                         <h3 class="materialu">Гідроізоляційні матеріали</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
-                        <a href="price/price_by_materialu.rar" class="open_price">Скачати прайс</a>
+                        <!-- <a href="price/price_by_materialu.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
                             <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
@@ -1639,15 +1657,6 @@
                                                         Упаковка
                                                     </th>
                                                     <th>
-                                                        Код товара
-                                                        ЕКН
-                                                    </th>
-                                                    <th>
-                                                        Стоимость
-                                                        за ед.изм.
-                                                        UAH
-                                                    </th>
-                                                    <th>
                                                         Область применения
                                                     </th>
                                                 </tr>
@@ -1665,12 +1674,6 @@
                                                     <td>
                                                         16 кг
                                                     </td>
-                                                    <td>
-                                                        398065
-                                                    </td>
-                                                    <td>
-                                                        628,474
-                                                    </td>
                                                     <td rowspan="3">
                                                         Предназначен для подготовки основания перед укладкой гидроизоляции.
                                                         Прекрасно сочетается с мастиками на основе битума  и рулонными
@@ -1685,12 +1688,6 @@
                                                     <td>
                                                         8 кг
                                                     </td>
-                                                    <td>
-                                                        398064
-                                                    </td>
-                                                    <td>
-                                                        420,959
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -1698,12 +1695,6 @@
                                                     </td>
                                                     <td>
                                                         2,4 кг
-                                                    </td>
-                                                    <td>
-                                                        421729
-                                                    </td>
-                                                    <td>
-                                                        118,58
                                                     </td>
                                                 </tr>
 
@@ -1717,12 +1708,6 @@
                                                     </td>
                                                     <td>
                                                         18 кг
-                                                    </td>
-                                                    <td>
-                                                        398056
-                                                    </td>
-                                                    <td>
-                                                        646,261
                                                     </td>
                                                     <td rowspan="3">
                                                         Предназначена устройства и ремонта кровель. 
@@ -1738,12 +1723,6 @@
                                                     <td>
                                                         10 кг
                                                     </td>
-                                                    <td>
-                                                        398055
-                                                    </td>
-                                                    <td>
-                                                        450,604
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -1751,12 +1730,6 @@
                                                     </td>
                                                     <td>
                                                         3 кг
-                                                    </td>
-                                                    <td>
-                                                        421721
-                                                    </td>
-                                                    <td>
-                                                        126,2877
                                                     </td>
                                                 </tr>
 
@@ -1770,12 +1743,6 @@
                                                     </td>
                                                     <td>
                                                         18 кг
-                                                    </td>
-                                                    <td>
-                                                        398061
-                                                    </td>
-                                                    <td>
-                                                        643,2426
                                                     </td>
                                                     <td rowspan="4">
                                                         Надежно приклеивает, а также устраняет мелкие 
@@ -1792,12 +1759,6 @@
                                                     <td>
                                                         10 кг
                                                     </td>
-                                                    <td>
-                                                        398060
-                                                    </td>
-                                                    <td>
-                                                        433,6794
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -1805,12 +1766,6 @@
                                                     </td>
                                                     <td>
                                                         3 кг
-                                                    </td>
-                                                    <td>
-                                                        421724
-                                                    </td>
-                                                    <td>
-                                                        116,424
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -1820,12 +1775,6 @@
                                                     <td>
                                                         0,3 кг
                                                         картридж
-                                                    </td>
-                                                    <td>
-                                                        398063
-                                                    </td>
-                                                    <td>
-                                                        31,43448
                                                     </td>
                                                 </tr>
 
@@ -1840,12 +1789,6 @@
                                                     <td>
                                                         8 кг
                                                     </td>
-                                                    <td>
-                                                        398040
-                                                    </td>
-                                                    <td>
-                                                        625,779
-                                                    </td>
                                                     <td rowspan="4">
                                                         Защищает от коррозии и продлевает срок 
                                                         службы металлических поверхностей, в том 
@@ -1859,12 +1802,6 @@
                                                     </td>
                                                     <td>
                                                         2,4 кг
-                                                    </td>
-                                                    <td>
-                                                        421716
-                                                    </td>
-                                                    <td>
-                                                        190,06218
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -1886,7 +1823,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <h2>Консультація</h2>
-                    <p>Наші фахівці допоможуть вам вибрати потрібний продукт (текстовку потрібно підібрати)</p>
+                    <p>Наші фахівці допоможуть вам <br/>вибрати потрібний продукт</p>
                     <button data-toggle="modal" data-target="#basicModal">Замовити дзвінок</button>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-4">
@@ -1926,130 +1863,196 @@
                     <h2>Галерея</h2>
                 </div>
                 <div class="col-sm-12">
-                    <ul class="bxslider">
-                        <li>
-                            <div class="clider">
+                        <ul class="bxslider">
+                            <li>
+                                <div class="clider">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Барбекю,-брусчатка-(магма).jpg" title="Барбекю, брусчатка (магма)">
+                                                <img src="images/gallery/prev/Барбекю,-брусчатка-(магма).JPG" alt="Барбекю, брусчатка (магма)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма)-2.JPG" title="Брусчатка(магма)">
+                                                <img src="images/gallery/prev/Брусчатка-(магма)-2.JPG" alt="Брусчатка(магма)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма)-3.JPG" title="Брусчатка(магма)">
+                                                <img src="images/gallery/prev/Брусчатка-(магма)-3.JPG" alt="Брусчатка(магма)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма)-4.JPG" title="Брусчатка-(магма)">
+                                                <img src="images/gallery/prev/Брусчатка-(магма)-4.JPG" alt="Брусчатка-(магма)">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма).JPG" title="Брусчатка-(магма)">
+                                                <img src="images/gallery/prev/Брусчатка-(магма).JPG" alt="Брусчатка-(магма)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма,-янтарь)-2.JPG" title="Брусчатка-(магма,-янтарь)">
+                                                <img src="images/gallery/prev/Брусчатка-(магма,-янтарь)-2.JPG" alt="Брусчатка-(магма,-янтарь)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма,-янтарь).JPG" title="Брусчатка-(магма,-янтарь)">
+                                                <img src="images/gallery/prev/Брусчатка-(магма,-янтарь).JPG" alt="Брусчатка-(магма,-янтарь)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(рубин,-магма,-янтарь,-микс).JPG" title="Брусчатка-(рубин,-магма,-янтарь,-микс)">
+                                                <img src="images/gallery/prev/Брусчатка-(рубин,-магма,-янтарь,-микс).JPG" alt="Брусчатка-(рубин,-магма,-янтарь,-микс)">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="clider">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(желтый).JPG" title="Кладка,-кирпич-(желтый)">
+                                                <img src="images/gallery/prev/Кладка,-кирпич-(желтый).JPG" alt="Кладка,-кирпич-(желтый)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(топаз).JPG" title="Кладка,-кирпич-(топаз)">
+                                                <img src="images/gallery/prev/Кладка,-кирпич-(топаз).JPG" alt="Кладка,-кирпич-(топаз)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(янтарь).JPG" title="Кладка,-кирпич-(янтарь)">
+                                                <img src="images/gallery/prev/Кладка,-кирпич-(янтарь).JPG" alt="Кладка,-кирпич-(янтарь)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(флеш-(БЦ)).JPG" title="Кладка,-кирпич-(флеш-(БЦ))">
+                                                <img src="images/gallery/prev/Кладка,-кирпич-(флеш-(БЦ)).JPG" alt="Кладка,-кирпич-(флеш-(БЦ))">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(желтый-(БЦ)).JPG" title="Дом,-кирпич-(желтый-(БЦ))">
+                                                <img src="images/gallery/prev/Дом,-кирпич-(желтый-(БЦ)).JPG" alt="Дом,-кирпич-(желтый-(БЦ))">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(топаз).JPG" title="Дом,-кирпич-(топаз)">
+                                                <img src="images/gallery/prev/Дом,-кирпич-(топаз).JPG" alt="Дом,-кирпич-(топаз)">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь).JPG" title="Дом,-кирпич-(янтарь)">
+                                                <img src="images/gallery/prev/Дом,-кирпич-(янтарь).JPG" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-Брусчатка-(рубин).JPG" title="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
+                                                <img src="images/gallery/prev/Дом,-кирпич-(янтарь)-Брусчатка-(рубин).JPG" alt="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0017.jpg" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0017.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ)).JPG" title="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ)).JPG" alt="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0019.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0019.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(жемчуг,-топаз)-2.JPG" title="Дом,-кирпич-(жемчуг,-топаз)-2">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(жемчуг,-топаз)-2.JPG" alt="Дом,-кирпич-(жемчуг,-топаз)-2">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0020.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0020.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(жемчуг,-топаз).JPG" title="Дом,-кирпич-(жемчуг,-топаз)">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(жемчуг,-топаз).JPG" alt="Дом,-кирпич-(жемчуг,-топаз)">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0023.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0023.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(жемчуг,-топаз)-3.JPG" title="Дом,-кирпич-(жемчуг,-топаз)-3">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(жемчуг,-топаз)-3.JPG" alt="Дом,-кирпич-(жемчуг,-топаз)-3">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0024.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0024.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь).JPG" title="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь).JPG" alt="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0025.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0025.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(персик)-Забор-(флеш-(БЦ)).JPG" title="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(персик)-Забор-(флеш-(БЦ)).JPG" alt="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0027.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0027.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(топаз)-2.JPG" title="Дом,-кирпич-(топаз)-2">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(топаз)-2.JPG" alt="Дом,-кирпич-(топаз)-2">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0028.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0028.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(флеш-(БЦ)).JPG" title="Дом,-кирпич-(флеш-(БЦ))">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(флеш-(БЦ)).JPG" alt="Дом,-кирпич-(флеш-(БЦ))">
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="clider">
+                            </li>
+                            <li>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0030.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0030.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-2.JPG" title="Дом,-кирпич-(янтарь)-2">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(янтарь)-2.JPG" alt="Дом,-кирпич-(янтарь)-2">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0037.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0037.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-3.JPG" title="Дом,-кирпич-(янтарь)-3">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(янтарь)-3.JPG" alt="Дом,-кирпич-(янтарь)-3">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0036.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0036.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-4.JPG" title="Дом,-кирпич-(янтарь)-4">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(янтарь)-4.JPG" alt="Дом,-кирпич-(янтарь)-4">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0033.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0033.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-5.JPG" title="Дом,-кирпич-(янтарь)-5">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(янтарь)-5.JPG" alt="Дом,-кирпич-(янтарь)-5)">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0034.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0034.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-6.JPG" title="Дом,-кирпич-(янтарь)-6">
+                                            <img src="images/gallery/prev/Дом,-кирпич-(янтарь)-6.JPG" alt="Дом,-кирпич-(янтарь)-6">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0035.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0035.JPG" alt="">
+                                        <a class="clider-picture" rel="gallery" href="images/gallery/Церковь,-кирпич-(рубин).JPG" title="Церковь,-кирпич-(рубин)">
+                                            <img src="images/gallery/prev/Церковь,-кирпич-(рубин).JPG" alt="Церковь,-кирпич-(рубин)">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0042.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0042.JPG" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0044.JPG" title="картинка">
-                                            <img src="images/gallery/prev/IMG_0044.JPG" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0040.JPG" title="картинка">
-                                        <img src="images/gallery/prev/IMG_0040.JPG" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3">
-                                    <a class="clider-picture" rel="gallery" href="images/gallery/IMG_0041.JPG" title="картинка">
-                                        <img src="images/gallery/prev/IMG_0041.JPG" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-sm-3">
 
-                                </div>
-                                <div class="col-sm-3">
+                                    </div>
+                                    <div class="col-sm-3">
 
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-
-                            </div>
-                        </li>
-                    </ul>
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <section class="diploms">
@@ -2057,7 +2060,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2>Сертификаты</h2>
+                    <h2>Сертифікати</h2>
                 </div>
                 <div class=" col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
                     <a class="serteficates" rel="gallery" href="images/certeficatesBelCher.jpg" title="">
@@ -2065,7 +2068,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficatesCeramiya.jpg" title="Сертификат2">
+                    <a class="serteficates" rel="gallery" href="images/certeficatesCeramiya.jpg" title="">
                         <img src="images/certeficates2.jpg" class="top" alt="certeficates2">
                     </a>
                 </div>
