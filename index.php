@@ -1859,45 +1859,45 @@
 								<div class="clider">
 									<div class="row">
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Барбекю,-брусчатка-(магма).jpg" title="Барбекю, брусчатка (магма)">
-												<img src="images/gallery/prev/Барбекю,-брусчатка-(магма).JPG" alt="Барбекю, брусчатка (магма)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/Barbeque.jpg" title="Барбекю, брусчатка (магма)">
+												<img src="images/gallery/prev/Barbeque.jpg" alt="Барбекю, брусчатка (магма)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма)-2.JPG" title="Брусчатка(магма)">
-												<img src="images/gallery/prev/Брусчатка-(магма)-2.JPG" alt="Брусчатка(магма)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka2.jpg" title="Брусчатка(магма)">
+												<img src="images/gallery/prev/Bruschatka2.jpg" alt="Брусчатка(магма)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма)-3.JPG" title="Брусчатка(магма)">
-												<img src="images/gallery/prev/Брусчатка-(магма)-3.JPG" alt="Брусчатка(магма)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka3.jpg" title="Брусчатка(магма)">
+												<img src="images/gallery/prev/Bruschatka3.jpg" alt="Брусчатка(магма)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма)-4.JPG" title="Брусчатка-(магма)">
-												<img src="images/gallery/prev/Брусчатка-(магма)-4.JPG" alt="Брусчатка-(магма)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka4.jpg" title="Брусчатка-(магма)">
+												<img src="images/gallery/prev/Bruschatka4.jpg" alt="Брусчатка-(магма)">
 											</a>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма).JPG" title="Брусчатка-(магма)">
-												<img src="images/gallery/prev/Брусчатка-(магма).JPG" alt="Брусчатка-(магма)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka.jpg" title="Брусчатка-(магма)">
+												<img src="images/gallery/prev/Bruschatka.jpg" alt="Брусчатка-(магма)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма,-янтарь)-2.JPG" title="Брусчатка-(магма,-янтарь)">
-												<img src="images/gallery/prev/Брусчатка-(магма,-янтарь)-2.JPG" alt="Брусчатка-(магма,-янтарь)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaYantar2.jpg" title="Брусчатка-(магма,-янтарь)">
+												<img src="images/gallery/prev/BruschatkaYantar2.jpg" alt="Брусчатка-(магма,-янтарь)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(магма,-янтарь).JPG" title="Брусчатка-(магма,-янтарь)">
-												<img src="images/gallery/prev/Брусчатка-(магма,-янтарь).JPG" alt="Брусчатка-(магма,-янтарь)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaYantar.jpg" title="Брусчатка-(магма,-янтарь)">
+												<img src="images/gallery/prev/BruschatkaYantar.jpg" alt="Брусчатка-(магма,-янтарь)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Брусчатка-(рубин,-магма,-янтарь,-микс).JPG" title="Брусчатка-(рубин,-магма,-янтарь,-микс)">
-												<img src="images/gallery/prev/Брусчатка-(рубин,-магма,-янтарь,-микс).JPG" alt="Брусчатка-(рубин,-магма,-янтарь,-микс)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaMix.jpg" title="Брусчатка-(рубин,-магма,-янтарь,-микс)">
+												<img src="images/gallery/prev/BruschatkaMix.jpg" alt="Брусчатка-(рубин,-магма,-янтарь,-микс)">
 											</a>
 										</div>
 									</div>
@@ -1907,45 +1907,45 @@
 								<div class="clider">
 									<div class="row">
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(желтый).JPG" title="Кладка,-кирпич-(желтый)">
-												<img src="images/gallery/prev/Кладка,-кирпич-(желтый).JPG" alt="Кладка,-кирпич-(желтый)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/KladkaZheltuy.jpg" title="Кладка,-кирпич-(желтый)">
+												<img src="images/gallery/prev/KladkaZheltuy.jpg" alt="Кладка,-кирпич-(желтый)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(топаз).JPG" title="Кладка,-кирпич-(топаз)">
-												<img src="images/gallery/prev/Кладка,-кирпич-(топаз).JPG" alt="Кладка,-кирпич-(топаз)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/KladkaTopaz.jpg" title="Кладка,-кирпич-(топаз)">
+												<img src="images/gallery/prev/KladkaTopaz.jpg" alt="Кладка,-кирпич-(топаз)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(янтарь).JPG" title="Кладка,-кирпич-(янтарь)">
-												<img src="images/gallery/prev/Кладка,-кирпич-(янтарь).JPG" alt="Кладка,-кирпич-(янтарь)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaYantar.jpg" title="Кладка,-кирпич-(янтарь)">
+												<img src="images/gallery/prev/BruschatkaYantar.jpg" alt="Кладка,-кирпич-(янтарь)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Кладка,-кирпич-(флеш-(БЦ)).JPG" title="Кладка,-кирпич-(флеш-(БЦ))">
-												<img src="images/gallery/prev/Кладка,-кирпич-(флеш-(БЦ)).JPG" alt="Кладка,-кирпич-(флеш-(БЦ))">
+											<a class="clider-picture" rel="gallery" href="images/gallery/KladkaFlesh.jpg" title="Кладка,-кирпич-(флеш-(БЦ))">
+												<img src="images/gallery/prev/KladkaFlesh.jpg" alt="Кладка,-кирпич-(флеш-(БЦ))">
 											</a>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(желтый-(БЦ)).JPG" title="Дом,-кирпич-(желтый-(БЦ))">
-												<img src="images/gallery/prev/Дом,-кирпич-(желтый-(БЦ)).JPG" alt="Дом,-кирпич-(желтый-(БЦ))">
+											<a class="clider-picture" rel="gallery" href="images/gallery/DomZeltuy.jpg" title="Дом,-кирпич-(желтый-(БЦ))">
+												<img src="images/gallery/prev/DomZeltuy.jpg" alt="Дом,-кирпич-(желтый-(БЦ))">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(топаз).JPG" title="Дом,-кирпич-(топаз)">
-												<img src="images/gallery/prev/Дом,-кирпич-(топаз).JPG" alt="Дом,-кирпич-(топаз)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/DomTopaz.jpg" title="Дом,-кирпич-(топаз)">
+												<img src="images/gallery/prev/DomTopaz.jpg" alt="Дом,-кирпич-(топаз)">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь).JPG" title="Дом,-кирпич-(янтарь)">
-												<img src="images/gallery/prev/Дом,-кирпич-(янтарь).JPG" alt="">
+											<a class="clider-picture" rel="gallery" href="images/gallery/DomYantar.jpg" title="Дом,-кирпич-(янтарь)">
+												<img src="images/gallery/prev/DomYantar.jpg" alt="">
 											</a>
 										</div>
 										<div class="col-sm-3">
-											<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-Брусчатка-(рубин).JPG" title="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
-												<img src="images/gallery/prev/Дом,-кирпич-(янтарь)-Брусчатка-(рубин).JPG" alt="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
+											<a class="clider-picture" rel="gallery" href="images/gallery/DomYantarRubin.jpg" title="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
+												<img src="images/gallery/prev/DomYantarRubin.jpg" alt="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
 											</a>
 										</div>
 									</div>
@@ -1954,45 +1954,45 @@
 							<li>
 								<div class="row">
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ)).JPG" title="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
-											<img src="images/gallery/prev/Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ)).JPG" alt="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomKorichnevuy.jpg" title="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
+											<img src="images/gallery/prev/DomKorichnevuy.jpg" alt="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(жемчуг,-топаз)-2.JPG" title="Дом,-кирпич-(жемчуг,-топаз)-2">
-											<img src="images/gallery/prev/Дом,-кирпич-(жемчуг,-топаз)-2.JPG" alt="Дом,-кирпич-(жемчуг,-топаз)-2">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomTopazZem2.jpg" title="Дом,-кирпич-(жемчуг,-топаз)-2">
+											<img src="images/gallery/prev/DomTopazZem2.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)-2">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(жемчуг,-топаз).JPG" title="Дом,-кирпич-(жемчуг,-топаз)">
-											<img src="images/gallery/prev/Дом,-кирпич-(жемчуг,-топаз).JPG" alt="Дом,-кирпич-(жемчуг,-топаз)">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomTopazZem.jpg" title="Дом,-кирпич-(жемчуг,-топаз)">
+											<img src="images/gallery/prev/DomTopazZem.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(жемчуг,-топаз)-3.JPG" title="Дом,-кирпич-(жемчуг,-топаз)-3">
-											<img src="images/gallery/prev/Дом,-кирпич-(жемчуг,-топаз)-3.JPG" alt="Дом,-кирпич-(жемчуг,-топаз)-3">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomTopazZem3.jpg" title="Дом,-кирпич-(жемчуг,-топаз)-3">
+											<img src="images/gallery/prev/DomTopazZem3.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)-3">
 										</a>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь).JPG" title="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
-											<img src="images/gallery/prev/Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь).JPG" alt="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomDumar.jpg" title="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
+											<img src="images/gallery/prev/DomDumar.jpg" alt="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(персик)-Забор-(флеш-(БЦ)).JPG" title="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
-											<img src="images/gallery/prev/Дом,-кирпич-(персик)-Забор-(флеш-(БЦ)).JPG" alt="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomZabor.jpg" title="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
+											<img src="images/gallery/prev/DomZabor.jpg" alt="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(топаз)-2.JPG" title="Дом,-кирпич-(топаз)-2">
-											<img src="images/gallery/prev/Дом,-кирпич-(топаз)-2.JPG" alt="Дом,-кирпич-(топаз)-2">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomTopaz2.jpg" title="Дом,-кирпич-(топаз)-2">
+											<img src="images/gallery/prev/DomTopaz2.jpg" alt="Дом,-кирпич-(топаз)-2">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(флеш-(БЦ)).JPG" title="Дом,-кирпич-(флеш-(БЦ))">
-											<img src="images/gallery/prev/Дом,-кирпич-(флеш-(БЦ)).JPG" alt="Дом,-кирпич-(флеш-(БЦ))">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomFlash.jpg" title="Дом,-кирпич-(флеш-(БЦ))">
+											<img src="images/gallery/prev/DomFlash.jpg" alt="Дом,-кирпич-(флеш-(БЦ))">
 										</a>
 									</div>
 								</div>
@@ -2000,35 +2000,35 @@
 							<li>
 								<div class="row">
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-2.JPG" title="Дом,-кирпич-(янтарь)-2">
-											<img src="images/gallery/prev/Дом,-кирпич-(янтарь)-2.JPG" alt="Дом,-кирпич-(янтарь)-2">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomYantar2.jpg" title="Дом,-кирпич-(янтарь)-2">
+											<img src="images/gallery/prev/DomYantar2.jpg" alt="Дом,-кирпич-(янтарь)-2">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-3.JPG" title="Дом,-кирпич-(янтарь)-3">
-											<img src="images/gallery/prev/Дом,-кирпич-(янтарь)-3.JPG" alt="Дом,-кирпич-(янтарь)-3">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomYantar3.jpg" title="Дом,-кирпич-(янтарь)-3">
+											<img src="images/gallery/prev/DomYantar3.jpg" alt="Дом,-кирпич-(янтарь)-3">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-4.JPG" title="Дом,-кирпич-(янтарь)-4">
-											<img src="images/gallery/prev/Дом,-кирпич-(янтарь)-4.JPG" alt="Дом,-кирпич-(янтарь)-4">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomYantar4.jpg" title="Дом,-кирпич-(янтарь)-4">
+											<img src="images/gallery/prev/DomYantar4.jpg" alt="Дом,-кирпич-(янтарь)-4">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-5.JPG" title="Дом,-кирпич-(янтарь)-5">
-											<img src="images/gallery/prev/Дом,-кирпич-(янтарь)-5.JPG" alt="Дом,-кирпич-(янтарь)-5)">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomYantar5.jpg" title="Дом,-кирпич-(янтарь)-5">
+											<img src="images/gallery/prev/DomYantar5.jpg" alt="Дом,-кирпич-(янтарь)-5">
 										</a>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Дом,-кирпич-(янтарь)-6.JPG" title="Дом,-кирпич-(янтарь)-6">
-											<img src="images/gallery/prev/Дом,-кирпич-(янтарь)-6.JPG" alt="Дом,-кирпич-(янтарь)-6">
+										<a class="clider-picture" rel="gallery" href="images/gallery/DomYantar.jpg" title="Дом,-кирпич-(янтарь)-6">
+											<img src="images/gallery/prev/DomYantar6.jpg" alt="Дом,-кирпич-(янтарь)-6">
 										</a>
 									</div>
 									<div class="col-sm-3">
-										<a class="clider-picture" rel="gallery" href="images/gallery/Церковь,-кирпич-(рубин).JPG" title="Церковь,-кирпич-(рубин)">
-											<img src="images/gallery/prev/Церковь,-кирпич-(рубин).JPG" alt="Церковь,-кирпич-(рубин)">
+										<a class="clider-picture" rel="gallery" href="images/gallery/Cherkov.jpg" title="Церковь,-кирпич-(рубин)">
+											<img src="images/gallery/prev/Cherkov.jpg" alt="Церковь,-кирпич-(рубин)">
 										</a>
 									</div>
 									<div class="col-sm-3">
