@@ -73,7 +73,7 @@
 
 
 		// navigation (scroll)
-		$(".navigation ul li:first-child").click(function(){
+		$(".navigation ul li.main_link").click(function(){
 			$('body,html').animate({
 					scrollTop:0}, 503);
 			return false;

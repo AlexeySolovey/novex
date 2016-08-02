@@ -85,7 +85,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="responsive-menu">
                     <ul class="navbar-nav">
-                        <li>
+                        <li class="main_link">
                             <a href="#">Головна</a>
                             <div class="jaw">
                                 <div></div>

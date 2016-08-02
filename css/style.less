@@ -661,6 +661,9 @@ section.catalog{
 				&.lichevoy{margin-right: -45px;}
 				&.ryadovoy{margin-right: -45px;}
 			}
+			a{
+				text-decoration: none;
+			}
 			.jaw{
 				background: #f4f4f4;
 				box-shadow: 0px 12px 23px -8px #c0c0c0
@@ -675,8 +678,11 @@ section.catalog{
 				&.materialu{margin-left: -45px; display: inline-block; width:30%; margin-bottom: 0px;}
 				&.keramobloki{}
 			}
-            h3{
-				&.materialu{display: inline-block; width:60%;}
+            a {
+            	text-decoration: none;
+            	h3{
+					&.materialu{display: inline-block; width:60%;}
+				}
 			}
 			.jaw{
 				background: #fff;
@@ -1179,6 +1185,18 @@ section.modal_window{
 	}
 }
 
+
+/*****************************
+		other pages
+*****************************/
+body#goods section.catalog {
+	background: #f4f4f4;
+	padding-top: 190px;
+	article{
+		background: #f4f4f4;
+	}
+}
+
 /*****************************
 			media
 *****************************/
@@ -1355,6 +1373,8 @@ section.modal_window{
 			}
 		}
 	}
+	/*other pages*/
+	#goods section.goods{display: none;}
 }
 
 @media screen and (min-width: 992px){

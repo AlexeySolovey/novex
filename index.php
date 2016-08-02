@@ -92,7 +92,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="responsive-menu">
 					<ul class="navbar-nav">
-						<li>
+						<li class="main_link">
 							<a href="#">Главная</a>
 							<div class="jaw">
 								<div></div>
@@ -111,13 +111,13 @@
 								<div></div>
 							</div>
 							<ul class="dropdown-menu my-pull-right"> 
-								<li><a href="#klink_good">Клинкерный кирпич</a></li>
-								<li><a href="#lichevoy_good">Лицевой кирпич</a></li>
-								<li><a href="#bruschatka_good">Клинкерная брусчатка</a></li>
-								<li><a href="#ryadovoy_good">Кирпич керамический рядовой м100</a></li>
-								<li><a href="#keramobloki_good">Поризованные керамические блоки</a></li>
-								<li><a href="#ruberoid_good">Кровельные материалы(рубероид)</a></li>
-								<li><a href="#materialu_good">Гидроизоляционные материалы</a></li>
+								<li><a href="klink_good.php">Клинкерный кирпич</a></li>
+								<li><a href="lichevoy_good.php">Лицевой кирпич</a></li>
+								<li><a href="bruschatka_good.php">Клинкерная брусчатка</a></li>
+								<li><a href="ryadovoy_good.php">Кирпич керамический рядовой м100</a></li>
+								<li><a href="keramobloki_good.php">Поризованные керамические блоки</a></li>
+								<li><a href="ruberoid_good.php">Кровельные материалы(рубероид)</a></li>
+								<li><a href="materialu_good.php">Гидроизоляционные материалы</a></li>
 							</ul>
 						</li>
 						<li>
@@ -207,70 +207,70 @@
 					<div class="wrap">
 						<div class="border"></div>
 						<div class="good-item">
-							<a href="#klink_good">
+							<a href="klink_good.php">
 								<img src="images/goods_klink.png" alt="Клинкерный кирпич">
 							</a>
-							<a href="#klink_good">
+							<a href="klink_good.php">
 								<p>Клинкерный кирпич</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
-							<a href="#lichevoy_good">
+							<a href="lichevoy_good.php">
 								<img src="images/goods_lichevoy.png" alt="Лицевой кирпич">
 							</a>
-							<a href="#lichevoy_good">
+							<a href="lichevoy_good.php">
 								<p>Лицевой кирпич</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item bruschatka">
-							<a href="#bruschatka_good">
+							<a href="bruschatka_good.php">
 								<img src="images/goods_bruschatka.png" alt="Клинкерная брусчатка">
 							</a>
-							<a href="#bruschatka_good">
+							<a href="bruschatka_good.php">
 								<p>Клинкерная брусчатка</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
-							<a href="#ryadovoy_good">
+							<a href="ryadovoy_good.php">
 								<img src="images/goods_ryadovoy.png" alt="Кирпич керамический рядовой м 100">
 							</a>
-							<a href="#ryadovoy_good">
+							<a href="ryadovoy_good.php">
 								<p>Кирпич керамический рядовой м100</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
-							<a href="#keramobloki_good">
+							<a href="keramobloki_good.php">
 								<img src="images/goods_keramobloki.png" alt="керамические блоки">
 							</a>
-							<a href="#keramobloki_good">
+							<a href="keramobloki_good.php">
 								<p>Поризованные керамические блоки</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
-							<a href="#ruberoid_good">
+							<a href="ruberoid_good.php">
 								<img src="images/goods_ruberoid.png" alt="рубероид">
 							</a>
-							<a href="#ruberoid_good">
+							<a href="ruberoid_good.php">
 								<p>Кровельные материалы (рубероид)</p>
 							</a>
 							<button data-toggle="modal" data-target="#basicModal">Узнать цену</button>
 							<div class="jaw"></div>
 						</div>
 						<div class="good-item">
-							<a href="#materialu_good">
+							<a href="materialu_good.php">
 								<img src="images/goods_materialu.png" alt="Гидроизоляционные материалы">
 							</a>
-							<a href="#materialu_good">
+							<a href="materialu_good.php">
 								<p class="hidden-sm hidden-md hidden-lg">Гидроизоляционные материалы</p>
 								<p class="hidden-xs">Гидроизо-ляционные материалы</p>
 							</a>
@@ -346,8 +346,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good klink" src="images/goods_klink.png" alt="Клинкерный кирпич">
-						<h3>Клинкерный кирпич</h3>
+						<a href="klink_good.php">
+							<img class="good klink" src="images/goods_klink.png" alt="Клинкерный кирпич">
+							<h3>Клинкерный кирпич</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_klink.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
@@ -425,8 +427,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good lichevoy" src="images/goods_lichevoy.png" alt="Лицевой кирпич">
-						<h3>Лицевой <br/> кирпич</h3>
+						<a href="lichevoy_good.php">
+							<img class="good lichevoy" src="images/goods_lichevoy.png" alt="Лицевой кирпич">
+							<h3>Лицевой <br/> кирпич</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_lichevoy.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
@@ -480,8 +484,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good bruschatka" src="images/goods_bruschatka.png" alt="Клинкерная брусчатка">
-						<h3>Клинкерная брусчатка</h3>
+						<a href="bruschatka_good.php">
+							<img class="good bruschatka" src="images/goods_bruschatka.png" alt="Клинкерная брусчатка">
+							<h3>Клинкерная брусчатка</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_bruschatka.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
@@ -532,8 +538,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good lichevoy" src="images/goods_ryadovoy.png" alt="Рядовой кирпич">
-						<h3>Кирпич керамический рядовой М100, M125</h3>
+						<a href="ryadovoy_good.php">
+							<img class="good lichevoy" src="images/goods_ryadovoy.png" alt="Рядовой кирпич">
+							<h3>Кирпич керамический рядовой М100, M125</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_ryadovoy.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
@@ -654,8 +662,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good keramobloki" src="images/goods_keramobloki.png" alt="Керамоблоки">
-						<h3>Поризованные Керамические блоки</h3>
+						<a href="keramobloki_good.php">
+							<img class="good keramobloki" src="images/goods_keramobloki.png" alt="Керамоблоки">
+							<h3>Поризованные Керамические блоки</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_keramobloki.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
@@ -719,8 +729,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good ruberoid" src="images/goods_ruberoid.png" alt="Рубероид">
-						<h3>Кровельные материалы (Наплавляемый рубероид)</h3>
+						<a href="ruberoid_good.php">
+							<img class="good ruberoid" src="images/goods_ruberoid.png" alt="Рубероид">
+							<h3>Кровельные материалы (Наплавляемый рубероид)</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_ruberoid.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
@@ -1148,8 +1160,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="jaw"></div>
-						<img class="good materialu" src="images/goods_materialu.png" alt="Гидроизоляционные материалы">
-						<h3 class="materialu">Гидроизоляционные материалы</h3>
+						<a href="materialu_good.php">
+							<img class="good materialu" src="images/goods_materialu.png" alt="Гидроизоляционные материалы">
+							<h3 class="materialu">Гидроизоляционные материалы</h3>
+						</a>
 						<button data-toggle="modal" data-target="#basicModal">узнать цену</button>
 <!--                        <a href="price/price_by_materialu.rar" class="open_price">Скачать прайс</a>-->
 						<!-- start gallery block -->
