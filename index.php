@@ -24,8 +24,8 @@
 				<div class="col-md-12">
 					<div class="language">
 						<ul>
-							<li><a href="indexUkr.php">Ua</a></li>
-							<li  class="active"><a href="index.php">Ru</a></li>
+							<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+							<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 						</ul>
 					</div>
 				</div>
@@ -76,8 +76,8 @@
 					<div class="col-xs-4">
 						<div class="language">
 							<ul>
-								<li class="active"><a href="#">Ua</a></li>
-								<li><a href="#">Ru</a></li>
+								<li class="active"><a href="/ua/">Ua</a></li>
+								<li><a href="/">Ru</a></li>
 							</ul>
 						</div>
 					</div>
@@ -520,7 +520,7 @@
 									Основная цветовая гамма-красный Рубин, коричневый Оникс, желтый Янтарь, кремовый Жечмуг и красно-коричневый Флеш.<br/>
 									Размеры брусчатки-200х100х45 мм и 200х100х52 мм. </p>
 									<div class="collapse" id="other_about_bruschatka_kerameya">
-										<p>ghbd</p>
+										<p></p>
 									</div>
 									<div class="text-center">
 										<a href="#other_about_bruschatka_kerameya" data-toggle="collapse" class="open_about collapsed">Подробнее о продукте</a>
@@ -2220,5 +2220,28 @@
 	<script type="text/javascript" src="js/parallax.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+
+
+	<script>
+		//questions/coll back
+		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
+			$("#topic").val("Заказать звонок");
+			$("#question_title").text("Заказать звонок");
+		});
+		$(".navigation .consult a").click(function(){
+			$("#topic").val("Консультация");
+			$("#question_title").text("Консультация");
+		});
+		$("section.goods button").click(function(){
+			var val = $(this).parent().find("p").html();
+			$("#question_title").text("Узнать цену");
+			$("#topic").val("Узнать цену "+ val);
+		});
+		$("section.catalog button").click(function(){
+			var val = $(this).parent().find("h3").html();
+			$("#question_title").text("Узнать цену ");
+			$("#topic").val("Узнать цену "+ val);
+		});
+	</script>
 </body>
 </html>

@@ -24,8 +24,8 @@
 				<div class="col-md-12">
 					<div class="language">
 						<ul>
-							<li><a href="indexUkr.php">Ua</a></li>
-							<li  class="active"><a href="index.php">Ru</a></li>
+							<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+							<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 						</ul>
 					</div>
 				</div>
@@ -76,8 +76,8 @@
 					<div class="col-xs-4">
 						<div class="language">
 							<ul>
-								<li class="active"><a href="#">Ua</a></li>
-								<li><a href="#">Ru</a></li>
+								<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+								<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 							</ul>
 						</div>
 					</div>
@@ -250,13 +250,394 @@
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_ruberoid_tehno">
 									<p>Кровельные материалы: кровельный рулонный наплавляемый полимерно-битумный материал на негниющей полиэфирной (полиэстер) или стеклооснове (стеклохолст) ТМ СПОЛИ  производства ООО «Завод ТехноНИКОЛЬ» г. Днепродзержинск и «Славутский рубероидный завод» г. Славута следующего оссортимента. </p>
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>
+													Наименование
+												</th>
+												<th>
+													Вид
+												</th>
+												<th>
+													Длина рулона, м
+												</th>
+												<th>
+													Вес 1 м.кв.
+												</th>
+												<th>
+													Масса рулона, кг
+												</th>
+												<th>
+													Кол. рулонов на поддоне
+												</th>
+												<th>
+													посыпка
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="materials-type" colspan="8">Материалы класса  "ЭЛИТ" (теплостойкость +100оС, гибкость на брусе R=20 мм  -20оС)</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Элит
+												</td>
+												<td>
+													ХПП 
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Элит
+												</td>
+												<td>
+													ХКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,5
+												</td>
+												<td>
+													45,0
+												</td>
+												<td>
+													23
+												</td>
+												<td>сланец серый</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Элит
+												</td>
+												<td>
+													ЭПП 
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Элит
+												</td>
+												<td>
+													ЭКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,5
+												</td>
+												<td>
+													45,0
+												</td>
+												<td>
+													23
+												</td>
+												<td>сланец серый</td>
+											</tr>
+
+											<tr>
+												<td class="materials-type" colspan="8">Материалы класса "МОДЕРН СБС" (теплостойкость +95оС, гибкость на брусе R=20 мм  -15оС)</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Модерн СБС
+												</td>
+												<td>
+													ХПП
+												</td>
+												<td>
+													15
+												</td>
+												<td>
+													3,0
+												</td>
+												<td>
+													45,0
+												</td>
+												<td>
+													23
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Модерн СБС
+												</td>
+												<td>
+													ХКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td>сланец серый</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Модерн СБС
+												</td>
+												<td>
+													ЭПП 
+												</td>
+												<td>
+													15
+												</td>
+												<td>
+													3,0
+												</td>
+												<td>
+													45,0
+												</td>
+												<td>
+													23
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Модерн СБС
+												</td>
+												<td>
+													ЭКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td>сланец серый</td>
+											</tr>
+
+											<tr>
+												<td class="materials-type" colspan="8">Материалы класса  "ОПТИМА" (теплостойкость +90оС, гибкость на брусе R=20 мм  -5оС)</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Оптима
+												</td>
+												<td>
+													ХПП
+												</td>
+												<td>
+													15
+												</td>
+												<td>
+													3,0
+												</td>
+												<td>
+													45,0
+												</td>
+												<td>
+													23
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Оптима
+												</td>
+												<td>
+													ХКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td>сланец серый</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Оптима
+												</td>
+												<td>
+													ЭПП
+												</td>
+												<td>
+													15
+												</td>
+												<td>
+													3,0
+												</td>
+												<td>
+													45,0
+												</td>
+												<td>
+													23
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Оптима
+												</td>
+												<td>
+													ЭКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td>сланец серый</td>
+											</tr>
+
+											<tr>
+												<td class="materials-type" colspan="8">Материалы класса  "Стандарт" (теплостойкость +80оС, гибкость на брусе R=20 мм  0оС)</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Стандарт
+												</td>
+												<td>
+													ХПП
+												</td>
+												<td>
+													15
+												</td>
+												<td>
+													2,5
+												</td>
+												<td>
+													37,5
+												</td>
+												<td>
+													23
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Стандарт
+												</td>
+												<td>
+													ХКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td>сланец серый</td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Стандарт
+												</td>
+												<td>
+													ЭПП
+												</td>
+												<td>
+													15
+												</td>
+												<td>
+													2,5
+												</td>
+												<td>
+													37,5
+												</td>
+												<td>
+													23
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>
+													СПОЛИ Стандарт
+												</td>
+												<td>
+													ЭКП
+												</td>
+												<td>
+													10
+												</td>
+												<td>
+													4,0
+												</td>
+												<td>
+													40,0
+												</td>
+												<td>
+													25
+												</td>
+												<td>сланец серый</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</article>
+		</div>
+	</article>
 	</section>
 	<section class="consultation">
 		<div class="container">
@@ -634,5 +1015,28 @@
 	<script type="text/javascript" src="js/parallax.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+
+
+	<script>
+		//questions/coll back
+		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
+			$("#topic").val("Заказать звонок");
+			$("#question_title").text("Заказать звонок");
+		});
+		$(".navigation .consult a").click(function(){
+			$("#topic").val("Консультация");
+			$("#question_title").text("Консультация");
+		});
+		$("section.goods button").click(function(){
+			var val = $(this).parent().find("p").html();
+			$("#question_title").text("Узнать цену");
+			$("#topic").val("Узнать цену "+ val);
+		});
+		$("section.catalog button").click(function(){
+			var val = $(this).parent().find("h3").html();
+			$("#question_title").text("Узнать цену ");
+			$("#topic").val("Узнать цену "+ val);
+		});
+	</script>
 </body>
 </html>

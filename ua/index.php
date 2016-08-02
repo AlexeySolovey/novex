@@ -1,14 +1,14 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <title>Новекс</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/jquery.bxslider.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
     <header>
@@ -17,16 +17,16 @@
                 <div class="col-md-12">
                     <div class="language">
                         <ul>
-                            <li class="active"><a href="indexUkr.php">Ua</a></li>
-                            <li><a href="index.php">Ru</a></li>
+                            <li class="active"><a href="<?=$_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+                            <li><a href="<?= substr($_SERVER['SCRIPT_NAME'], 3);?>">Ru</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <a href="/">
-                        <img src="images/logo.png" alt="logo">
+                    <a href="/ua/">
+                        <img src="/images/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="col-sm-6">
@@ -69,8 +69,8 @@
                     <div class="col-xs-4">
                         <div class="language">
                             <ul>
-                                <li class="active"><a href="/indexUkr.html">Ua</a></li>
-                                <li><a href="/index.html">Ru</a></li>
+                                <li class="active"><a href="<?=$_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+                           		<li><a href="<?= substr($_SERVER['SCRIPT_NAME'], 3);?>">Ru</a></li>
                             </ul>
                         </div>
                     </div>
@@ -104,13 +104,13 @@
                                 <div></div>
                             </div>
                             <ul class="dropdown-menu my-pull-right">
-                                <li><a href="#klink_good">Клінкерна цегла</a></li>
-                                <li><a href="#lichevoy_good">Лицьова цегла</a></li>
-                                <li><a href="#bruschatka_good">Клінкерна бруківка</a></li>
-                                <li><a href="#ryadovoy_good">Цегла керамічна рядова м100, M125</a></li>
-                                <li><a href="#keramobloki_good">Поризовані керамічні блоки</a></li>
-                                <li><a href="#ruberoid_good">Покрівельні матеріали (руберойд)</a></li>
-                                <li><a href="#materialu_good">Гідроізоляційні матеріали</a></li>
+                                <li><a href="klink_good.php">Клінкерна цегла</a></li>
+                                <li><a href="lichevoy_good.php">Лицьова цегла</a></li>
+                                <li><a href="bruschatka_good.php">Клінкерна бруківка</a></li>
+                                <li><a href="ryadovoy_good.php">Цегла керамічна рядова м100, M125</a></li>
+                                <li><a href="keramobloki_good.php">Поризовані керамічні блоки</a></li>
+                                <li><a href="ruberoid_good.php">Покрівельні матеріали (руберойд)</a></li>
+                                <li><a href="materialu_good.php">Гідроізоляційні матеріали</a></li>
                             </ul>
                         </li>
                         <li>
@@ -143,7 +143,7 @@
         </nav>
     </section>
     <section class="baner">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/banerr.jpg">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="/images/banerr.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-10 col-lg-9">
@@ -157,8 +157,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="/">
-                        <img src="images/logo.png" alt="logo">
+                    <a href="/ua/">
+                        <img src="/images/logo.png" alt="logo">
                     </a>
                     <h2>покрівельні та стінові будматеріали в Кривому Розі</h2>
                 </div>
@@ -200,70 +200,70 @@
                     <div class="wrap">
                         <div class="border"></div>
                         <div class="good-item">
-                            <a href="#klink_good">
-                                <img src="images/goods_klink.png" alt="Клінкерна цегла">
+                            <a href="klink_good.php">
+                                <img src="/images/goods_klink.png" alt="Клінкерна цегла">
                             </a>
-                            <a href="#klink_good">
+                            <a href="klink_good.php">
                                 <p>Клінкерна цегла</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
                         </div>
                         <div class="good-item">
-                            <a href="#lichevoy_good">
-                                <img src="images/goods_lichevoy.png" alt="Лицьова цегла">
+                            <a href="lichevoy_good.php">
+                                <img src="/images/goods_lichevoy.png" alt="Лицьова цегла">
                             </a>
-                            <a href="#lichevoy_good">
+                            <a href="lichevoy_good.php">
                                 <p>Лицьова цегла</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
                         </div>
                         <div class="good-item bruschatka">
-                            <a href="#bruschatka_good">
-                                <img src="images/goods_bruschatka.png" alt="Клінкерна бруківка">
+                            <a href="bruschatka_good.php">
+                                <img src="/images/goods_bruschatka.png" alt="Клінкерна бруківка">
                             </a>
-                            <a href="#bruschatka_good">
+                            <a href="bruschatka_good.php">
                                 <p>Клінкерна бруківка</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
                         </div>
                         <div class="good-item">
-                            <a href="#ryadovoy_good">
-                                <img src="images/goods_ryadovoy.png" alt="Цегла керамічна рядова м 100">
+                            <a href="ryadovoy_good.php">
+                                <img src="/images/goods_ryadovoy.png" alt="Цегла керамічна рядова м 100">
                             </a>
-                            <a href="#ryadovoy_good">
+                            <a href="ryadovoy_good.php">
                                 <p>Цегла керамічна рядова м100, м125</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
                         </div>
                         <div class="good-item">
-                            <a href="#keramobloki_good">
-                                <img src="images/goods_keramobloki.png" alt="керамічні блоки">
+                            <a href="keramobloki_good.php">
+                                <img src="/images/goods_keramobloki.png" alt="керамічні блоки">
                             </a>
-                            <a href="#keramobloki_good">
+                            <a href="keramobloki_good.php">
                                 <p>Поризовані керамічні блоки</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
                         </div>
                         <div class="good-item">
-                            <a href="#ruberoid_good">
-                                <img src="images/goods_ruberoid.png" alt="руберойд">
+                            <a href="ruberoid_good.php">
+                                <img src="/images/goods_ruberoid.png" alt="руберойд">
                             </a>
-                            <a href="#ruberoid_good">
+                            <a href="ruberoid_good.php">
                                 <p>Покрівельні матеріали (руберойд)</p>
                             </a>
                             <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                             <div class="jaw"></div>
                         </div>
                         <div class="good-item">
-                            <a href="#materialu_good">
-                                <img src="images/goods_materialu.png" alt="Гідроізоляційні матеріали">
+                            <a href="materialu_good.php">
+                                <img src="/images/goods_materialu.png" alt="Гідроізоляційні матеріали">
                             </a>
-                            <a href="#materialu_good">
+                            <a href="materialu_good.php">
                                 <p class="hidden-sm hidden-md hidden-lg">Гідроізоляційні матеріали</p>
                                 <p class="hidden-xs">Гідроізоляційні матеріали</p>
                             </a>
@@ -339,24 +339,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good klink" src="images/goods_klink.png" alt="Клінкерна цегла">
-                        <h3>Клінкерна цегла</h3>
+                        <a href="klink_good.php">
+	                        <img class="good klink" src="/images/goods_klink.png" alt="Клінкерна цегла">
+	                        <h3>Клінкерна цегла</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">Дізнатись ціну</button>
                         <!-- <a href="price/price_by_klink.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -418,24 +420,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good lichevoy" src="images/goods_lichevoy.png" alt="Лицьова цегла">
-                        <h3>Лицьова <br /> цегла</h3>
+                        <a href="lichevoy_good.php">
+	                        <img class="good lichevoy" src="/images/goods_lichevoy.png" alt="Лицьова цегла">
+	                        <h3>Лицьова <br /> цегла</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_lichevoy.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -477,24 +481,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good bruschatka" src="images/goods_bruschatka.png" alt="Клінкерна бруківка">
-                        <h3>Клінкерна бруківка</h3>
+                        <a href="bruschatka_good.php">
+	                        <img class="good bruschatka" src="/images/goods_bruschatka.png" alt="Клінкерна бруківка">
+	                        <h3>Клінкерна бруківка</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_bruschatka.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -538,24 +544,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good lichevoy" src="images/goods_ryadovoy.png" alt="Цегла керамічна рядова м100, м125">
-                        <h3>Цегла керамічна рядова м100</h3>
+                        <a href="ryadovoy_good.php">
+	                        <img class="good lichevoy" src="/images/goods_ryadovoy.png" alt="Цегла керамічна рядова м100, м125">
+	                        <h3>Цегла керамічна рядова м100</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_ryadovoy.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -660,24 +668,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good keramobloki" src="images/goods_keramobloki.png" alt="Керамоблоки">
-                        <h3>Поризовані керамічні блоки</h3>
+                        <a href="keramobloki_good.php">
+	                        <img class="good keramobloki" src="/images/goods_keramobloki.png" alt="Керамоблоки">
+	                        <h3>Поризовані керамічні блоки</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_keramobloki.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -727,24 +737,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good ruberoid" src="images/goods_ruberoid.png" alt="Руберойд">
-                        <h3>Покрівельні матеріали (руберойд)</h3>
+                        <a href="ruberoid_good.php">
+	                        <img class="good ruberoid" src="/images/goods_ruberoid.png" alt="Руберойд">
+	                        <h3>Покрівельні матеріали (руберойд)</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_ruberoid.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -1163,24 +1175,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jaw"></div>
-                        <img class="good materialu" src="images/goods_materialu.png" alt="Гідроізоляційні матеріали">
-                        <h3 class="materialu">Гідроізоляційні матеріали</h3>
+                        <a href="materialu_good.php">
+	                        <img class="good materialu" src="/images/goods_materialu.png" alt="Гідроізоляційні матеріали">
+	                        <h3 class="materialu">Гідроізоляційні матеріали</h3>
+	                    </a>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_materialu.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->
                         <div class="open_gallary">
-                            <a class="goods_gallery" rel="gallery" href="images/goods_bruschatka.png" title="перший слайд">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_bruschatka.png" title="перший слайд">
                                 <span>Галерея</span>
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_keramobloki.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_keramobloki.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_lichevoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_lichevoy.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_materialu.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_materialu.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ruberoid.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ruberoid.png" title="">
                             </a>
-                            <a class="goods_gallery" rel="gallery" href="images/goods_ryadovoy.png" title="">
+                            <a class="goods_gallery" rel="gallery" href="/images/goods_ryadovoy.png" title="">
                             </a>
                         </div>
                         <!-- end gallery block -->
@@ -1830,7 +1844,7 @@
                     <button data-toggle="modal" data-target="#basicModal">Замовити дзвінок</button>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-4">
-                    <img src="images/girl.png" alt="">
+                    <img src="/images/girl.png" alt="">
                 </div>
             </div>
         </div>
@@ -1871,45 +1885,45 @@
                                 <div class="clider">
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/Barbeque.jpg" title="Барбекю, брусчатка (магма)">
-                                                <img src="images/gallery/prev/Barbeque.jpg" alt="Барбекю, брусчатка (магма)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/Barbeque.jpg" title="Барбекю, брусчатка (магма)">
+                                                <img src="/images/gallery/prev/Barbeque.jpg" alt="Барбекю, брусчатка (магма)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka2.jpg" title="Брусчатка(магма)">
-                                                <img src="images/gallery/prev/Bruschatka2.jpg" alt="Брусчатка(магма)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/Bruschatka2.jpg" title="Брусчатка(магма)">
+                                                <img src="/images/gallery/prev/Bruschatka2.jpg" alt="Брусчатка(магма)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka3.jpg" title="Брусчатка(магма)">
-                                                <img src="images/gallery/prev/Bruschatka3.jpg" alt="Брусчатка(магма)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/Bruschatka3.jpg" title="Брусчатка(магма)">
+                                                <img src="/images/gallery/prev/Bruschatka3.jpg" alt="Брусчатка(магма)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka4.jpg" title="Брусчатка-(магма)">
-                                                <img src="images/gallery/prev/Bruschatka4.jpg" alt="Брусчатка-(магма)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/Bruschatka4.jpg" title="Брусчатка-(магма)">
+                                                <img src="/images/gallery/prev/Bruschatka4.jpg" alt="Брусчатка-(магма)">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/Bruschatka.jpg" title="Брусчатка-(магма)">
-                                                <img src="images/gallery/prev/Bruschatka.jpg" alt="Брусчатка-(магма)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/Bruschatka.jpg" title="Брусчатка-(магма)">
+                                                <img src="/images/gallery/prev/Bruschatka.jpg" alt="Брусчатка-(магма)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaYantar2.jpg" title="Брусчатка-(магма,-янтарь)">
-                                                <img src="images/gallery/prev/BruschatkaYantar2.jpg" alt="Брусчатка-(магма,-янтарь)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/BruschatkaYantar2.jpg" title="Брусчатка-(магма,-янтарь)">
+                                                <img src="/images/gallery/prev/BruschatkaYantar2.jpg" alt="Брусчатка-(магма,-янтарь)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaYantar.jpg" title="Брусчатка-(магма,-янтарь)">
-                                                <img src="images/gallery/prev/BruschatkaYantar.jpg" alt="Брусчатка-(магма,-янтарь)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/BruschatkaYantar.jpg" title="Брусчатка-(магма,-янтарь)">
+                                                <img src="/images/gallery/prev/BruschatkaYantar.jpg" alt="Брусчатка-(магма,-янтарь)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaMix.jpg" title="Брусчатка-(рубин,-магма,-янтарь,-микс)">
-                                                <img src="images/gallery/prev/BruschatkaMix.jpg" alt="Брусчатка-(рубин,-магма,-янтарь,-микс)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/BruschatkaMix.jpg" title="Брусчатка-(рубин,-магма,-янтарь,-микс)">
+                                                <img src="/images/gallery/prev/BruschatkaMix.jpg" alt="Брусчатка-(рубин,-магма,-янтарь,-микс)">
                                             </a>
                                         </div>
                                     </div>
@@ -1919,45 +1933,45 @@
                                 <div class="clider">
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/KladkaZheltuy.jpg" title="Кладка,-кирпич-(желтый)">
-                                                <img src="images/gallery/prev/KladkaZheltuy.jpg" alt="Кладка,-кирпич-(желтый)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/KladkaZheltuy.jpg" title="Кладка,-кирпич-(желтый)">
+                                                <img src="/images/gallery/prev/KladkaZheltuy.jpg" alt="Кладка,-кирпич-(желтый)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/KladkaTopaz.jpg" title="Кладка,-кирпич-(топаз)">
-                                                <img src="images/gallery/prev/KladkaTopaz.jpg" alt="Кладка,-кирпич-(топаз)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/KladkaTopaz.jpg" title="Кладка,-кирпич-(топаз)">
+                                                <img src="/images/gallery/prev/KladkaTopaz.jpg" alt="Кладка,-кирпич-(топаз)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/BruschatkaYantar.jpg" title="Кладка,-кирпич-(янтарь)">
-                                                <img src="images/gallery/prev/BruschatkaYantar.jpg" alt="Кладка,-кирпич-(янтарь)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/BruschatkaYantar.jpg" title="Кладка,-кирпич-(янтарь)">
+                                                <img src="/images/gallery/prev/BruschatkaYantar.jpg" alt="Кладка,-кирпич-(янтарь)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/KladkaFlesh.jpg" title="Кладка,-кирпич-(флеш-(БЦ))">
-                                                <img src="images/gallery/prev/KladkaFlesh.jpg" alt="Кладка,-кирпич-(флеш-(БЦ))">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/KladkaFlesh.jpg" title="Кладка,-кирпич-(флеш-(БЦ))">
+                                                <img src="/images/gallery/prev/KladkaFlesh.jpg" alt="Кладка,-кирпич-(флеш-(БЦ))">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/DomZeltuy.jpg" title="Дом,-кирпич-(желтый-(БЦ))">
-                                                <img src="images/gallery/prev/DomZeltuy.jpg" alt="Дом,-кирпич-(желтый-(БЦ))">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/DomZeltuy.jpg" title="Дом,-кирпич-(желтый-(БЦ))">
+                                                <img src="/images/gallery/prev/DomZeltuy.jpg" alt="Дом,-кирпич-(желтый-(БЦ))">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/DomTopaz.jpg" title="Дом,-кирпич-(топаз)">
-                                                <img src="images/gallery/prev/DomTopaz.jpg" alt="Дом,-кирпич-(топаз)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/DomTopaz.jpg" title="Дом,-кирпич-(топаз)">
+                                                <img src="/images/gallery/prev/DomTopaz.jpg" alt="Дом,-кирпич-(топаз)">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/DomYantar.jpg" title="Дом,-кирпич-(янтарь)">
-                                                <img src="images/gallery/prev/DomYantar.jpg" alt="">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantar.jpg" title="Дом,-кирпич-(янтарь)">
+                                                <img src="/images/gallery/prev/DomYantar.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="col-sm-3">
-                                            <a class="clider-picture" rel="gallery" href="images/gallery/DomYantarRubin.jpg" title="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
-                                                <img src="images/gallery/prev/DomYantarRubin.jpg" alt="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
+                                            <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantarRubin.jpg" title="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
+                                                <img src="/images/gallery/prev/DomYantarRubin.jpg" alt="Дом,-кирпич-(янтарь)-Брусчатка-(рубин)">
                                             </a>
                                         </div>
                                     </div>
@@ -1966,45 +1980,45 @@
                             <li>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomKorichnevuy.jpg" title="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
-                                            <img src="images/gallery/prev/DomKorichnevuy.jpg" alt="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomKorichnevuy.jpg" title="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
+                                            <img src="/images/gallery/prev/DomKorichnevuy.jpg" alt="Дом,-кирпич-(янтарь,-коричневый)-Забор,-кирпич-(флеш-(БЦ))">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomTopazZem2.jpg" title="Дом,-кирпич-(жемчуг,-топаз)-2">
-                                            <img src="images/gallery/prev/DomTopazZem2.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)-2">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomTopazZem2.jpg" title="Дом,-кирпич-(жемчуг,-топаз)-2">
+                                            <img src="/images/gallery/prev/DomTopazZem2.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)-2">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomTopazZem.jpg" title="Дом,-кирпич-(жемчуг,-топаз)">
-                                            <img src="images/gallery/prev/DomTopazZem.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomTopazZem.jpg" title="Дом,-кирпич-(жемчуг,-топаз)">
+                                            <img src="/images/gallery/prev/DomTopazZem.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomTopazZem3.jpg" title="Дом,-кирпич-(жемчуг,-топаз)-3">
-                                            <img src="images/gallery/prev/DomTopazZem3.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)-3">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomTopazZem3.jpg" title="Дом,-кирпич-(жемчуг,-топаз)-3">
+                                            <img src="/images/gallery/prev/DomTopazZem3.jpg" alt="Дом,-кирпич-(жемчуг,-топаз)-3">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomDumar.jpg" title="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
-                                            <img src="images/gallery/prev/DomDumar.jpg" alt="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomDumar.jpg" title="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
+                                            <img src="/images/gallery/prev/DomDumar.jpg" alt="Дом,-кирпич-(магма)-Дымарь,-кирпич-(янтарь)">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomZabor.jpg" title="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
-                                            <img src="images/gallery/prev/DomZabor.jpg" alt="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomZabor.jpg" title="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
+                                            <img src="/images/gallery/prev/DomZabor.jpg" alt="Дом,-кирпич-(персик)-Забор-(флеш-(БЦ))">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomTopaz2.jpg" title="Дом,-кирпич-(топаз)-2">
-                                            <img src="images/gallery/prev/DomTopaz2.jpg" alt="Дом,-кирпич-(топаз)-2">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomTopaz2.jpg" title="Дом,-кирпич-(топаз)-2">
+                                            <img src="/images/gallery/prev/DomTopaz2.jpg" alt="Дом,-кирпич-(топаз)-2">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomFlash.jpg" title="Дом,-кирпич-(флеш-(БЦ))">
-                                            <img src="images/gallery/prev/DomFlash.jpg" alt="Дом,-кирпич-(флеш-(БЦ))">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomFlash.jpg" title="Дом,-кирпич-(флеш-(БЦ))">
+                                            <img src="/images/gallery/prev/DomFlash.jpg" alt="Дом,-кирпич-(флеш-(БЦ))">
                                         </a>
                                     </div>
                                 </div>
@@ -2012,35 +2026,35 @@
                             <li>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomYantar2.jpg" title="Дом,-кирпич-(янтарь)-2">
-                                            <img src="images/gallery/prev/DomYantar2.jpg" alt="Дом,-кирпич-(янтарь)-2">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantar2.jpg" title="Дом,-кирпич-(янтарь)-2">
+                                            <img src="/images/gallery/prev/DomYantar2.jpg" alt="Дом,-кирпич-(янтарь)-2">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomYantar3.jpg" title="Дом,-кирпич-(янтарь)-3">
-                                            <img src="images/gallery/prev/DomYantar3.jpg" alt="Дом,-кирпич-(янтарь)-3">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantar3.jpg" title="Дом,-кирпич-(янтарь)-3">
+                                            <img src="/images/gallery/prev/DomYantar3.jpg" alt="Дом,-кирпич-(янтарь)-3">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomYantar4.jpg" title="Дом,-кирпич-(янтарь)-4">
-                                            <img src="images/gallery/prev/DomYantar4.jpg" alt="Дом,-кирпич-(янтарь)-4">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantar4.jpg" title="Дом,-кирпич-(янтарь)-4">
+                                            <img src="/images/gallery/prev/DomYantar4.jpg" alt="Дом,-кирпич-(янтарь)-4">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomYantar5.jpg" title="Дом,-кирпич-(янтарь)-5">
-                                            <img src="images/gallery/prev/DomYantar5.jpg" alt="Дом,-кирпич-(янтарь)-5">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantar5.jpg" title="Дом,-кирпич-(янтарь)-5">
+                                            <img src="/images/gallery/prev/DomYantar5.jpg" alt="Дом,-кирпич-(янтарь)-5">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/DomYantar.jpg" title="Дом,-кирпич-(янтарь)-6">
-                                            <img src="images/gallery/prev/DomYantar6.jpg" alt="Дом,-кирпич-(янтарь)-6">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/DomYantar.jpg" title="Дом,-кирпич-(янтарь)-6">
+                                            <img src="/images/gallery/prev/DomYantar6.jpg" alt="Дом,-кирпич-(янтарь)-6">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a class="clider-picture" rel="gallery" href="images/gallery/Cherkov.jpg" title="Церковь,-кирпич-(рубин)">
-                                            <img src="images/gallery/prev/Cherkov.jpg" alt="Церковь,-кирпич-(рубин)">
+                                        <a class="clider-picture" rel="gallery" href="/images/gallery/Cherkov.jpg" title="Церковь,-кирпич-(рубин)">
+                                            <img src="/images/gallery/prev/Cherkov.jpg" alt="Церковь,-кирпич-(рубин)">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
@@ -2066,18 +2080,18 @@
                     <h2>Сертифікати</h2>
                 </div>
                 <div class=" col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficatesBelCher.jpg" title="">
-                        <img src="images/certeficates1.jpg" alt="certeficates1">
+                    <a class="serteficates" rel="gallery" href="/images/certeficatesBelCher.jpg" title="">
+                        <img src="/images/certeficates1.jpg" alt="certeficates1">
                     </a>
                 </div>
                 <div class=" col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficatesCeramiya.jpg" title="">
-                        <img src="images/certeficates2.jpg" class="top" alt="certeficates2">
+                    <a class="serteficates" rel="gallery" href="/images/certeficatesCeramiya.jpg" title="">
+                        <img src="/images/certeficates2.jpg" class="top" alt="certeficates2">
                     </a>
                 </div>
                 <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4">
-                    <a class="serteficates" rel="gallery" href="images/certeficatesTech.jpg" title="">
-                        <img src="images/certeficates3.jpg" alt="certeficates3">
+                    <a class="serteficates" rel="gallery" href="/images/certeficatesTech.jpg" title="">
+                        <img src="/images/certeficates3.jpg" alt="certeficates3">
                     </a>
                 </div>
             </div>
@@ -2162,8 +2176,8 @@
         <div class="container">
             <div class="row">
                 <div class="hidden-xs col-sm-5">
-                    <a href="/">
-                        <img src="images/logo.png" alt="logo">
+                    <a href="/ua/">
+                        <img src="/images/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-7">
@@ -2216,11 +2230,36 @@
 
 
 
-    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="js/parallax.min.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="/js/parallax.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+
+
+    <script>
+    //questions/coll back
+		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
+			$("#topic").val("Замовити дзвінок");
+			$("#question_title").text("Замовити дзвінок");
+		});
+		$(".navigation .consult a").click(function(){
+			$("#topic").val("Консультацiя");
+			$("#question_title").text("Консультацiя");
+		});
+		$("section.goods button").click(function(){
+			var val = $(this).parent().find("p").html();
+			$("#question_title").text("Дiзнатись цiну");
+			$("#topic").val("Дiзнатись цiну"+ val);
+		});
+		$("section.catalog button").click(function(){
+			var val = $(this).parent().find("h3").html();
+			$("#question_title").text("Дiзнатись цiну ");
+			$("#topic").val("Дiзнатись цiну "+ val);
+		});
+	</script>
+
+
 </body>
 </html>

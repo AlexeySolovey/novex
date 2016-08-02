@@ -627,7 +627,7 @@ section.advantage{
 	height: 470px;
 	margin-top: -45px;
 }
-.good[src="images/goods_materialu.png"]{
+.good[src="images/goods_materialu.png"], .good[src="/images/goods_materialu.png"] {
   height: auto;
 }
 img.materialu{
@@ -1189,14 +1189,19 @@ section.modal_window{
 /*****************************
 		other pages
 *****************************/
-body#goods section.catalog {
-	background: #f4f4f4;
-	padding-top: 190px;
-	article{
+body#goods {
+	section.catalog {
 		background: #f4f4f4;
+		padding-top: 190px;
+		padding-bottom:150px;
+		article{
+			background: #f4f4f4;
+			.tab-content .tab-pane p{
+				display:block;
+			}
+		}
 	}
 }
-
 /*****************************
 			media
 *****************************/

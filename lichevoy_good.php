@@ -24,8 +24,8 @@
 				<div class="col-md-12">
 					<div class="language">
 						<ul>
-							<li><a href="indexUkr.php">Ua</a></li>
-							<li  class="active"><a href="index.php">Ru</a></li>
+							<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+							<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 						</ul>
 					</div>
 				</div>
@@ -76,8 +76,8 @@
 					<div class="col-xs-4">
 						<div class="language">
 							<ul>
-								<li class="active"><a href="#">Ua</a></li>
-								<li><a href="#">Ru</a></li>
+								<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+								<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 							</ul>
 						</div>
 					</div>
@@ -247,6 +247,14 @@
 								<div class="tab-pane active fade in" id="main_about_lichevoy_chercov">
 									<p>Лицевой кирпич ТМ Білоцерківські будматеріали производится с 2003 г и представляет собой кирпич с пустотностью 36%, имеющий марку прочности на сжатие 200-250 кгс/см2, водопоглощение 6-8 % и морозостойкость более 100-150 циклов. Такие технические показатели в 1,5-2 раза превышают принятые в Украине показатели технических характеристик лицевого керамического кирпича. <br/>
 									Основная цветовая гамма- классический красный, коричневый, желтый, персиковый, кремовый, кристальный (цвет кварцового песка) и флеш (сочетание красно-желто-коричнево-зеленоватой гаммы).</p>
+									
+									<p>Размеры кирпича- стандартный 250х120х65 мм; «евро» 250х90х65 мм; «брусок» 250х65х65 мм, утолщенный 250х120х88 мм.<br/>
+									Разновидности-фасонный,одинарный, утолщенный.<br/>
+									Применяется при высококачественной облицовке фасадов и для внутреннего декора. Характерно, что применение лицевого кирпича марочностью не ниже 200 препятствует появлению высолов.<br/>
+									Весь кирпич упакован в пленку на поддонах.<br/>
+									Количество на поддоне: 250х120х65- 416 шт; «евро» 250х90х65 – 520 шт; «брусок» 250х65х65 – 728 шт, фасонный -312шт; утолщенный 250х120х88 мм – 288 шт.<br/>
+									Вес 1 п – 0,675 т; 1,05 т.<br/>
+									Вся продукция ТМ Білоцерківські будматеріали сертифицирована. </p>
 								</div>
 							</div>
 						</div>
@@ -631,5 +639,28 @@
 	<script type="text/javascript" src="js/parallax.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+
+
+	<script>
+		//questions/coll back
+		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
+			$("#topic").val("Заказать звонок");
+			$("#question_title").text("Заказать звонок");
+		});
+		$(".navigation .consult a").click(function(){
+			$("#topic").val("Консультация");
+			$("#question_title").text("Консультация");
+		});
+		$("section.goods button").click(function(){
+			var val = $(this).parent().find("p").html();
+			$("#question_title").text("Узнать цену");
+			$("#topic").val("Узнать цену "+ val);
+		});
+		$("section.catalog button").click(function(){
+			var val = $(this).parent().find("h3").html();
+			$("#question_title").text("Узнать цену ");
+			$("#topic").val("Узнать цену "+ val);
+		});
+	</script>
 </body>
 </html>

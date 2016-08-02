@@ -24,8 +24,8 @@
 				<div class="col-md-12">
 					<div class="language">
 						<ul>
-							<li><a href="indexUkr.php">Ua</a></li>
-							<li  class="active"><a href="index.php">Ru</a></li>
+							<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+							<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 						</ul>
 					</div>
 				</div>
@@ -76,8 +76,8 @@
 					<div class="col-xs-4">
 						<div class="language">
 							<ul>
-								<li class="active"><a href="#">Ua</a></li>
-								<li><a href="#">Ru</a></li>
+								<li><a href="/ua<?= $_SERVER['SCRIPT_NAME'];?>">Ua</a></li>
+								<li  class="active"><a href="<?= $_SERVER['SCRIPT_NAME'];?>">Ru</a></li>
 							</ul>
 						</div>
 					</div>
@@ -250,6 +250,24 @@
 							<div class="tab-content">
 								<div class="tab-pane active fade in" id="main_about_keramobloki_kerameya">
 									<p>Поризованные керамические блоки ТМ Теплокерам ООО Керамейя М100 имеют водопоглощение 10-15%, морозостойкость 35-50 циклов и являются заменой рядовому керамическому кирпичу. Обладают пониженной теплопроводностью за счет введения в глиняную смесь древесной стружки и обжиге при очень высокой температуре, образуя микропоры, повышающие теплозащитные свойства.</p>
+									
+									<p>Разновидности:<br/><br/>
+										керамоблок 380,<br/>
+										керамоблок 2,12 НФ.<br/><br/>
+
+										Рамеры:<br/>
+										керамоблок 380 – 380х250х238 мм (эквивалент 11,5 штук стандартного кирпича)<br/>
+										керамоблок 2,12 НФ – 250х120х138 (эквивалент 2,12 штук стандартного кирпича)<br/><br/>
+
+										Применяется для возведения наружных стен под облицовку, а также  внутренних стен и перегородок. При применении поризованных блоков нет необходимости утеплять наружные стены дополнительно, т.к. блоки сами по себе уже являются утеплителем, причем с высокой паропроницаемостью.<br/>
+										Упаковка: на поддонах в пленке.<br/><br/>
+
+										Количество на поддоне:<br/>
+										блок 380 – 60 шт, вес 1 п-1,3 т;<br/>
+										блок 2,12НФ – 280 щт, вес 1 п-1,13 т.<br/><br/>
+
+										Качество блоков ТМ Теплокерам подтверждено сертификатами соответствия согласно ДСТУ Б В.2.7-61:2008.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -634,5 +652,28 @@
 	<script type="text/javascript" src="js/parallax.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+
+
+	<script>
+		//questions/coll back
+		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
+			$("#topic").val("Заказать звонок");
+			$("#question_title").text("Заказать звонок");
+		});
+		$(".navigation .consult a").click(function(){
+			$("#topic").val("Консультация");
+			$("#question_title").text("Консультация");
+		});
+		$("section.goods button").click(function(){
+			var val = $(this).parent().find("p").html();
+			$("#question_title").text("Узнать цену");
+			$("#topic").val("Узнать цену "+ val);
+		});
+		$("section.catalog button").click(function(){
+			var val = $(this).parent().find("h3").html();
+			$("#question_title").text("Узнать цену ");
+			$("#topic").val("Узнать цену "+ val);
+		});
+	</script>
 </body>
 </html>

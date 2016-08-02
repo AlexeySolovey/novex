@@ -107,6 +107,7 @@
 		// gallery
 		$('.bxslider').bxSlider();
 		//questions/coll back
+		/*
 		$(".phones button, .call-me button, .consultation button, footer button").click(function(){
 			$("#topic").val("Заказать звонок");
 			$("#question_title").text("Заказать звонок");
@@ -125,6 +126,7 @@
 			$("#question_title").text("Узнать цену ");
 			$("#topic").val("Узнать цену "+ val);
 		});
+		*/
 
 
 	});
