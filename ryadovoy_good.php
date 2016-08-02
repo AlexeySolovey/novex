@@ -92,7 +92,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="responsive-menu">
 					<ul class="navbar-nav">
-						<li class="main_link">
+						<li>
 							<a href="index.php">Главная</a>
 							<div class="jaw">
 								<div></div>
