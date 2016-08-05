@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/jquery.bxslider.css" type="text/css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
 </head>
 <body id="goods">
     <header>
@@ -219,7 +220,7 @@
                     <div class="col-md-12">
                         
                         <img class="good lichevoy" src="/images/goods_ryadovoy.png" alt="Цегла керамічна рядова м100, м125">
-                        <h3>Цегла керамічна рядова м100</h3>
+                        <h3>Цегла керамічна рядова м100, м125</h3>
                         <button data-toggle="modal" data-target="#basicModal">дізнатись ціну</button>
                         <!-- <a href="price/price_by_ryadovoy.rar" class="open_price">Скачати прайс</a> -->
                         <!-- start gallery block -->

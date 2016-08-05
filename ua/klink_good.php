@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/jquery.bxslider.css" type="text/css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
 </head>
 <body id="goods">
     <header>
@@ -154,7 +155,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <a href="/ua/">
-                        <img src="/images/logo.png" alt="logo">
+                        <img src="/images/logo.png" class="img-responsive" alt="logo">
                     </a>
                     <h2>покрівельні та стінові будматеріали в Кривому Розі</h2>
                 </div>
